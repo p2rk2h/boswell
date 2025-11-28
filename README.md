@@ -14,6 +14,6 @@ Anaconda:
 4) #use pip for PyPI packages:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ pip install dataframe_image selenium
 
 initial Checkin files:
-1) botwell_test.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  slight enhancement of Alan's original botwell_test.py
+1) boswell_test.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  slight enhancement of Alan's original botwell_test.py
 2) LetterGrade.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  slight improvement of [LetterGrade checkin](https://github.com/p2rk2h/LetterGrades)  
 3) boswellQuotientTable.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  tabulates original LLM assigned grades, calculates normalized grades, and tabulates with final weighted Boswell Quotient table; all 3 tables are styled and exportable as png files.
