@@ -1,0 +1,13 @@
+Model,Meta: Llama Guard 4 12B,Mistral: Voxtral Small 24B 2507,Cohere: Command A,xAI: Grok 4.1 Fast (free),Google: Nano Banana Pro (Gemini 3 Pro Image Preview),Anthropic: Claude Opus 4.5,Perplexity: Sonar Pro Search,Baidu: ERNIE 4.5 21B A3B Thinking,Qwen: Qwen3 VL 8B Thinking,NVIDIA: Nemotron Nano 12B 2 VL (free),OpenAI: GPT-5.1,DeepSeek: DeepSeek V3.2 Exp,Median Grade,Percentage
+Meta: Llama Guard 4 12B,N/A,B+,F,F,N/A,F,N/A,D-,F,F,F,F,F,50
+Mistral: Voxtral Small 24B 2507,N/A,A-,A-,B+,B,B,B-,A-,A-,B+,A-,B+,B+,88
+Cohere: Command A,N/A,A-,A,A-,B,B+,B+,A-,A-,A-,A-,A-,A-,94
+xAI: Grok 4.1 Fast (free),N/A,A-,A,A-,A,B+,B+,A-,B+,A-,B+,A,A-,94
+Google: Nano Banana Pro (Gemini 3 Pro Image Preview),N/A,A-,A-,A-,A-,B+,B+,A-,B+,A-,A-,A,A-,94
+Anthropic: Claude Opus 4.5,N/A,A-,A-,A,A-,B+,B+,A-,B-,A-,A-,A-,A-,94
+Perplexity: Sonar Pro Search,N/A,A-,A-,A-,B+,B+,B+,A+,B-,A-,A-,A-,A-,94
+Baidu: ERNIE 4.5 21B A3B Thinking,N/A,A-,A-,B+,C,B,B+,A,B+,B+,B,A,B+,88
+Qwen: Qwen3 VL 8B Thinking,N/A,A-,N/A,A-,B,B+,B+,A-,A-,B+,B+,A,A-/B+,91
+NVIDIA: Nemotron Nano 12B 2 VL (free),N/A,A-,A-,A-,B+,B+,B+,A-,A-,A-,B+,A-,A-,94
+OpenAI: GPT-5.1,N/A,A-,A,A+,B+,A-,B+,A+,A+,A-,A-,A,A-,94
+DeepSeek: DeepSeek V3.2 Exp,N/A,A-,N/A,A,A,B+,A-,A+,B-,A,A-,A,A-,95
