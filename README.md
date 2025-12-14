@@ -25,10 +25,11 @@ generates a Boswell Quotient table with custom-assigned weights for comprehensiv
 Sample usage:
 1) __$ conda activate py10__  #  or equivalent
 2) __$ export OPENROUTER_API_KEY='your-api-key'__  #  *OpenRouter* api key is in *https://openrouter.ai/settings/keys* after login
-3) __$ python boswell_test.py -d sample_boswell_query__  #  __-d__ specifies the query file at *domains/sample_boswell_query.py*<br>
+3a) __$ python boswell_test.py -d sample_boswell_query__  #  __-d__ specifies the query file at *domains/sample_boswell_query.py*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  the resulting *OpenRouter* output, *grades_table.csv* and *timing_report.md*, are<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  automatically saved to the *./results/(timeStamp)-sample_boswell_query/* directory; for example, a<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  sample run with time stamp *20251129-082317* stores files in *./results/20251129-082317-sample_boswell_query/*
+3b): __$ python boswell_test.py -f -d sample_boswell_query__  #  __-f__ specifies only using free models currently availabe from OpenRouter with maximum 16 free models allowed.
 4) __$ python boswellQuotientTable.py -d ./results/20251129-082317-sample_boswell_query -w '5:3:1:1'__ <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  __-d__ specifies the time-stamped directory and __-w__ allows custom weights to be applied;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  the resulting png files are saved to the same directory. 
@@ -47,3 +48,9 @@ Present limitations:
 * Readability: Enhance clarity with consistent naming conventions and documentation.
 * Maintainability: Reduce redundancy and simplify logic for easier updates.
 * Scalability: Optimize performance and adaptability for future extensions.
+5) dynamic free chatbot (or model) celections are currently limited to maximum 16 models.
+
+New updates (2025-12-14):
+1) new flag '-f' or '--free' flag added to dynamically extract only latest free models in OpenRouter with maximum 16 models.
+2) corrected BoswellQuotientTable.py to exclude any models with more than 50% 'N/A' grades since some models might not respond back with feedback grades.
+3) added analysis condition to exclude any remaining 'N/A' grades; also correcting column index reference error of the initial previous checkin.  
