@@ -29,7 +29,7 @@ Sample usage:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  the resulting *OpenRouter* output, *grades_table.csv* and *timing_report.md*, are<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  automatically saved to the *./results/(timeStamp)-sample_boswell_query/* directory; for example, a<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  sample run with time stamp *20251129-082317* stores files in *./results/20251129-082317-sample_boswell_query/*
-3b): __$ python boswell_test.py -f -d sample_boswell_query__  #  __-f__ specifies only using free models currently availabe from OpenRouter with maximum 16 free models allowed.
+3b) __$ python boswell_test.py -f -d sample_boswell_query__  #  __-f__ specifies only using free models currently availabe from OpenRouter with maximum 16 free models allowed.
 4) __$ python boswellQuotientTable.py -d ./results/20251129-082317-sample_boswell_query -w '5:3:1:1'__ <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  __-d__ specifies the time-stamped directory and __-w__ allows custom weights to be applied;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #  the resulting png files are saved to the same directory. 
