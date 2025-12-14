@@ -327,7 +327,7 @@ def get_dataframe_with_latency(report_dir: str) -> pd.DataFrame:
     else:
         print(f"ERROR: Latency length mismatch: {len(latency_col)-1} vs {model_row_count}")
         df['latency'] = float('nan')
-
+    '''
     # 5. Add column medians row
     median_row = ['col median/bias']
     grade_cols = [c for c in df.columns[1:]]  #  includes latency column
@@ -343,7 +343,7 @@ def get_dataframe_with_latency(report_dir: str) -> pd.DataFrame:
     # median_row.append(median([x for x in df['latency'] if pd.notna(x)] or [0]))
 
     df.loc[len(df)] = median_row
-    
+    '''
     return df
 
 #   =====
@@ -359,7 +359,37 @@ print( "dir:\t\t" , dir )
 
 df = get_dataframe_with_latency( dir )
 
+#  clean up 'N/A' or '0' grades (due mostly from free models)
+
+#  drop column whose values are more than half 0's  ##########
+threshold = 0.5
+# df = df.loc[ : , ( df == '0' ).mean( ) <= threshold ]
+zero_columns = ( df == '0' ).mean( ) > threshold  #  (column names, T/F) series
+cols_to_drop = zero_columns[ zero_columns ].index.tolist( )  #  column names
+cols_indices = [ df.columns.get_loc( col ) for col in cols_to_drop ]  #  column indices of columns
+
+print( zero_columns , cols_to_drop , cols_indices , ( np.array( cols_indices ) - 1 ).tolist( ) )
+
+df = df.drop( columns = cols_to_drop )  #  drop columns whose values are N/A
+df = df.drop( index = ( np.array( cols_indices ) - 1 ).tolist( ) , errors = 'ignore' )  #  drop rows whose column values are N/A
+df = df.reset_index( drop = True )
+
 nRow , nCol = df.shape
+
+# 5. Add column medians row
+median_row = [ 'col median/bias' ]
+grade_cols = [ c for c in df.columns[ 1 : ] ]  #  includes latency column
+    
+for col in grade_cols:
+    try:
+        colist = [ g for g in df[ col ].tolist( ) if g != '0' ]  #  need to exclude any '0' or 'N/A' grades
+        med = LetterGrade.median( colist )  #  df[ col ].tolist( )
+        median_row.append( med )
+    except Exception as e :
+        print( f"Median error on {col}: {e}" )
+        median_row.append( 'ERR' )
+
+df.loc[ len( df ) ] = median_row
 
 dfr = df.copy( )
 model_names = dfr.iloc[:nRow, 0].tolist()
@@ -397,7 +427,7 @@ def getDfNormalizedGrades(df):
         bias_corr.append(f"{diff:.3f}")
     # Optional: add overall bias and self-grading median at the end
     bias_corr.append(f"{gradingBiasMdn}")  
-    selfGradingMdn = LetterGrade.median([df.iloc[i, i+1] for i in range(model_row_count)])
+    selfGradingMdn = LetterGrade.median([df.iloc[i, i+1] for i in range(model_row_count) if df.iloc[i, i+1] != '0' ])  ##########
     bias_corr.append(f"{selfGradingMdn}")
 
     df.loc[len(df)] = bias_corr
@@ -406,7 +436,7 @@ def getDfNormalizedGrades(df):
     nRow = nRow2 - 2                    # number of actual models/chatbots
 
     # === CORRECT: Get the global grading bias from the bias corrections row ===
-    original_overall_median = df.iloc[ : nRow , nRow ].tolist()
+    original_overall_median = df.iloc[ : nRow , nRow + 1 ].tolist()  ##########
     gradingBiasMdn = df.iloc[nRow + 1, nRow + 1]      # ← this is correct
     selfGradingMdn = df.iloc[ nRow + 1 , nRow + 2 ]
     
@@ -414,12 +444,16 @@ def getDfNormalizedGrades(df):
     for i in range(nRow):
         for j in range(1, nRow + 1):
             original_grade = df.iloc[i, j]
-            bias_correction = float(df.iloc[nRow + 1, j])   # this is a float like "0.320"
-            normalized = LetterGrade(original_grade) + bias_correction
-            df.iloc[i, j] = str(normalized)                # store as string like "A-"
-
+            if ( original_grade != '0' ) :  ##########
+                bias_correction = float(df.iloc[nRow + 1, j])   # this is a float like "0.320"
+                normalized = LetterGrade(original_grade) + bias_correction
+                if ( 0 <= float( normalized ) <= 4.125 ) :  ##########
+                    normalized = LetterGrade(original_grade) + bias_correction
+                    df.iloc[i, j] = str(normalized)                # store as string like "A-"
+            # else :  ##########
+                # print( i , j , original_grade , df.iloc[nRow + 1, j] )
         # Compute normalized median grade for this model (row)
-        row_grades = df.iloc[i, 1:nRow + 1].tolist()
+        row_grades = [ g for g in df.iloc[i, 1:nRow + 1].tolist() if g != '0' ]  #  exclude any '0' or 'N/A'	##########
         df.iloc[i, nRow + 1] = LetterGrade.median(row_grades)
 
     # === 2. Summary statistics ===
@@ -431,7 +465,7 @@ def getDfNormalizedGrades(df):
     # === 3. Add new row: column medians of normalized grades ===
     colMdnRow = ['column medians']
     for j in range(1, nRow + 1):
-        col_values = df.iloc[:nRow, j].tolist()
+        col_values = [ g for g in df.iloc[:nRow, j].tolist() if g != '0' ]  ##########  exclude any '0' or 'N/A'
         colMdnRow.append(LetterGrade.median(col_values))
 
     normalized_column_median = LetterGrade.median(colMdnRow[1:])  # median of all column medians
@@ -612,9 +646,10 @@ def getDfBoswellQuotientTable(df2, df0, wgtDct=None):
 
     # === Extract key medians ===
     gradingBiasMdn = LetterGrade.median(df.iloc[nRow, 1:nRow+1].tolist())
-    normalizedGradMed = LetterGrade.median(df.iloc[:nRow, nRow].tolist())
-    original_grades = [g.strip() for g in df0.iloc[:nRow, nRow].tolist()]
-    biasCorrMdn = LetterGrade.median( [ float( s ) for s in df.iloc[ nRow + 1 , 1 : nRow + 1 ].to_list( ) ] )
+    normalizedGradMed = LetterGrade.median(df.iloc[:nRow, nRow + 1].tolist())  ###########
+    original_grades = [g.strip() for g in df0.iloc[:nRow, nRow + 1].tolist()]  ##########
+    # biasCorrMdn = LetterGrade.median( [ float( s ) for s in df.iloc[ nRow + 1 , 1 : nRow + 1 ].to_list( ) ] )
+    biasCorrMdn = np.median( LetterGrade.to_numeric_values( df.iloc[ nRow + 1 , 1 : nRow + 1 ].to_list( ) ) )  ##########
 
     # === Build metric rows ===
     rows = [ ]
@@ -632,7 +667,7 @@ def getDfBoswellQuotientTable(df2, df0, wgtDct=None):
     raw_accuracy = ['raw accuracy', '0']
     acc_grades   = ['accuracy grades', f"{wgtDct['accuracy']:.2f}"]
     for i in range(nRow):
-        diffs = [A_plus - LetterGrade(df.iloc[i, j]) for j in range(1, nRow+1)]
+        diffs = [A_plus - LetterGrade(df.iloc[i, j]) for j in range(1, nRow+1) if df.iloc[i, j] != '0' ]  ##########
         total_diff = sum(diffs)
         raw_accuracy.append(total_diff)
         acc_grades.append(map2gradeDct([total_diff], dgry)[0])
@@ -651,7 +686,7 @@ def getDfBoswellQuotientTable(df2, df0, wgtDct=None):
     cons_grades = ['consistency', f"{wgtDct['consistency']:.2f}"]
     for i in range(nRow):
         row_median = LetterGrade(df.iloc[i, nRow + 1])
-        mad = sum(abs(LetterGrade(df.iloc[i, j]) - row_median) for j in range(1, nRow+1))
+        mad = sum(abs(LetterGrade(df.iloc[i, j]) - row_median) for j in range(1, nRow+1) if df.iloc[i, j] != '0' )  ##########
         mad_values.append(mad)
         cons_grades.append(map2gradeDct([mad], dgry2)[0])
     mad_values.append(median(mad_values[2:]))
@@ -769,6 +804,36 @@ def main( ) :
     print( )
 
     df0 = get_dataframe_with_latency( dir )
+
+    #  clean up 'N/A' or '0' grades (due mostly from free models)
+
+    #  drop column whose values are more than half 0's  ##########
+    threshold = 0.5
+    # df = df.loc[ : , ( df == '0' ).mean( ) <= threshold ]
+    zero_columns = ( df0 == '0' ).mean( ) > threshold  #  (column names, T/F) series
+    cols_to_drop = zero_columns[ zero_columns ].index.tolist( )  #  column names
+    cols_indices = [ df0.columns.get_loc( col ) for col in cols_to_drop ]  #  column indices of columns
+
+    print( zero_columns , cols_to_drop , cols_indices , ( np.array( cols_indices ) - 1 ).tolist( ) )
+
+    df0 = df0.drop( columns = cols_to_drop )  #  drop columns whose values are N/A
+    df0 = df0.drop( index = ( np.array( cols_indices ) - 1 ).tolist( ) , errors = 'ignore' )  #  drop rows whose column values are N/A
+    df0 = df0.reset_index( drop = True )
+
+    # 5. Add column medians row
+    median_row = [ 'col median/bias' ]
+    grade_cols = [ c for c in df0.columns[ 1 : ] ]  #  includes latency column
+
+    for col in grade_cols:
+        try:
+            colist = [ g for g in df0[ col ].tolist( ) if g != '0' ]  #  need to exclude any '0' or 'N/A' grades
+            med = LetterGrade.median( colist )  #  df[ col ].tolist( )
+            median_row.append( med )
+        except Exception as e :
+            print( f"Median error on {col}: {e}" )
+            median_row.append( 'ERR' )
+
+    df0.loc[ len( df0 ) ] = median_row	##########
 
     nRow , nCol = df0.shape
 
