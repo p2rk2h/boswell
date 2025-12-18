@@ -77,12 +77,13 @@ def get_free_openrouter_models():
         print( f"Error fetching free models from OpenRouter API: {e}" )
         return ( [ ] )
 
-def getTopModels( free : bool , modelimit = 100 ) :
+def getTopModels( modelimit = 100 ) :
     # The OpenRouter API endpoint to list all models	#  https://gemini.google.com/app/f10c6613f816b435
     API_URL = "https://openrouter.ai/api/v1/models"
 
-    if ( free ) :
-        free = min( modelimit , MAX_FREE_MODELS )
+    free = MAX_FREE_MODELS	#	?????
+    if ( IS_FREE_MODE ) :	#	?????
+        free = min( modelimit , free )
         return ( get_free_openrouter_models( ) )
     try :
         SCRAPING_URL = "https://openrouter.ai/models?sort=usage&sort_order=desc&type=chat&limit=" + str( modelimit ) if modelimit > 0 else '50'
@@ -132,7 +133,8 @@ MODELS = [
     {"name": "Microsoft-phi-3-medium", "model_id": "microsoft/phi-3-medium"}	#####	20251020
 ]
 
-models100 = getTopModels( free = True )
+# models100 = getTopModels( free = True )
+models100 = getTopModels( )	#	?????
 
 #	use only well-known providers	#####
 prvdr = [ 'OpenAI' , 'Anthropic' , 'Google' , 'Mistral' , 'Meta' , 'Qwen' , 'xAI' , 'DeepSeek' , 'Perplexity' , 'Cohere' , 'NVIDIA' , 'Baidu' ]	#####
@@ -159,6 +161,7 @@ ALLOWED_PROVIDERS = {'OpenAI', 'Anthropic', 'Google', 'Mistral', 'Meta',
 MAX_FREE_MODELS = 16
 MODELS_BY_PROVIDER = {} 
 MODELS = [ ]  #  final_models = []
+IS_FREE_MODE = False	#	?????
 
 '''
 for model_data in models100:
@@ -182,6 +185,9 @@ for model_data in models100:
 #     {"name": "Claude-3.5-Sonnet", "model_id": "anthropic/claude-3-5-sonnet-20240620"},
 # ]
 '''
+
+# limit -all-domains to only query MAX_ALL_DOMAINS due to running times  ##########
+MAX_ALL_DOMAINS = 4 # Example: Set a reasonable default limit  ##########
 
 # Available domains
 AVAILABLE_DOMAINS = {
@@ -515,6 +521,10 @@ def create_results_directory(domain_name: str, timestamp: str) -> Tuple[str, str
     
     # Create timestamped directory for this run
     run_dir = f"results/{timestamp}-{domain_name}"
+
+    if ( IS_FREE_MODE ) :	#	?????
+        run_dir += "Fr"	#	?????
+    
     essays_dir = f"{run_dir}/essays"
     
     os.makedirs(run_dir, exist_ok=True)
@@ -910,8 +920,12 @@ def run_boswell_test(domain_name: str, output_file: str, selected_models: List[s
         
         # Create tasks for each author-grader pair (excluding self-grading)
         for author, essay in results["essays"].items():
+             if ( len( essay ) < 280 ) :	#	?????
+                 print( f"*****\tEXCLUDING {author}'s essay: {essay} due to being too SHORT (len:{len( essay )}) to be properly graded" )
+                 print( author , len( essay ) , essay[ : 20 ] )	#	?????
+                 continue	#	?????
 #            if grader_name != author:  # Skip self-grading	#####	add self-grading back
-                grading_tasks.append((grader, author, essay))
+             grading_tasks.append((grader, author, essay))	#	?????
     
     # Use ThreadPoolExecutor to run grading concurrently
     # Limit to 10 concurrent tasks to avoid overwhelming the API
@@ -1001,7 +1015,7 @@ def run_boswell_test(domain_name: str, output_file: str, selected_models: List[s
     
     # Use the timestamp from the beginning of the run
     run_dir, essays_dir = create_results_directory(domain_name, timestamp)
-    
+
     for author in results["essays"].keys():
         # Get all grades for this author
         author_grades = {
@@ -2394,7 +2408,7 @@ def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Boswell Test - LLM Comparative Analysis")
 
-    # --- ADD FREE FLAG HERE ---  ##########
+    # 1. --- ADD FREE FLAG HERE ---  ##########
     parser.add_argument( '-f', '--free', type = int, nargs = '?', const = MAX_FREE_MODELS, default = 0, help='Use only the top free models from OpenRouter. Optionally spedify a limit (def: 16).')  ##########
     # -----------------------
     
@@ -2406,8 +2420,29 @@ def parse_arguments() -> argparse.Namespace:
 #                        help="Domain to test (default: pol_sci_1)")
                         default="sample_boswell_query",  #####
                         help="Domain to test (default: sample_boswell_query)")  #####
-    domain_group.add_argument("--all-domains", action="store_true",
-                        help="Run tests on all available domains")
+
+    # 2. New Domain Check (No choices restriction)	##########
+    domain_group.add_argument(
+        "-nd", "--new-domain",
+        type=str,
+        default=None, 
+        dest='domain_file',  # Use a different destination name to avoid conflict with -d/--domain
+        help="Specify the filename (e.g., 'my_new_domain.py') for a domain not in the predefined list."
+    )
+
+    # 3. --all-domains limit with MAX_ALL_DOMAINS # Example: Set a reasonable default limit
+    # domain_group.add_argument("--all-domains", action="store_true",
+    #                    help="Run tests on all available domains")
+
+    # In parse_arguments():
+    domain_group.add_argument(
+        "--all-domains", 
+        type=int,           # 1. Expects an optional integer value (the limit)
+        nargs='?',          # 2. Makes the value optional
+        const=MAX_ALL_DOMAINS, # 3. Value used if the flag is present but has NO value (--all-domains)
+        default=0,          # 4. Value used if the flag is OMITTED entirely
+        help=f"Run tests on ALL available domains. Optionally specify a limit (e.g., {MAX_ALL_DOMAINS} max domains)."
+    )
     
     parser.add_argument("--output", type=str, default="boswell_results.json",
                         help="Output file name (default: boswell_results.json)")
@@ -2440,7 +2475,23 @@ def parse_arguments() -> argparse.Namespace:
 
 def run_all_domains(args) -> None:
     """Run Boswell Test on all available domains."""
-    print(f"Starting Boswell Test for ALL available domains ({len(AVAILABLE_DOMAINS)} domains)...")
+
+    limit = min( args.all_domains , MAX_ALL_DOMAINS )	##########
+    # print(f"Starting Boswell Test for ALL available domains ({len(AVAILABLE_DOMAINS)} domains)...")
+    print(f"Starting Boswell Test for ALLOWED available domains ({limit} domains)...")
+
+    # 1. Get the list of domains
+    all_domains = list(AVAILABLE_DOMAINS.keys())
+    
+    # 2. Apply the limit (e.g., max 10 domains)
+    if limit < len(all_domains):
+        # We can also add a simple clamp check to prevent extremely large numbers
+        final_domain_list = all_domains[:limit]
+        print(f"Running tests on the first {len(final_domain_list)} domains (Limit: {limit}).")
+    else:
+        # If no limit was effectively set, or limit is greater than available domains
+        final_domain_list = all_domains
+        print(f"Running tests on ALL {len(final_domain_list)} available domains.")
     
     # If models specified, use them, otherwise use all
     if args.models:
@@ -2453,7 +2504,9 @@ def run_all_domains(args) -> None:
     all_results = {}
     
     # Run tests for each domain sequentially
-    for domain_name, domain_description in AVAILABLE_DOMAINS.items():
+    # for domain_name, domain_description in AVAILABLE_DOMAINS.items():
+    for domain_name in final_domain_list :  ##########
+        domain_description = AVAILABLE_DOMAINS.get(domain_name, "N/A - Non-Standard Domain")	##########
         print(f"\n{'='*70}")
         print(f"=== Running test for domain: {domain_description} ===")
         print(f"{'='*70}\n")
@@ -2901,6 +2954,7 @@ def get_provider_key(model_data):
 def main() -> None:
     """Main entry point for the script."""
     global MODELS  #  declare as global to modify its earlier scope declaration
+    global IS_FREE_MODE	#	?????
 
     args = parse_arguments()
 
@@ -2910,9 +2964,9 @@ def main() -> None:
     if ( free_limit < 0 ) :
         raise argparse.ArgumentTypeError(f"limit must be zero or a positive number (received {free_limit})")
 
-    is_free_mode = free_limit > 0
-    print( "Fetching f'FREE (Limit: {free_limit}' if is_free_mode else 'TOP'} models from OpenRouter API...")
-    models_raw_list = getTopModels( is_free_mode , free_limit )  ##########
+    IS_FREE_MODE = free_limit > 0
+    print( f"***** Fetching {f'FREE (Limit: {free_limit})' if IS_FREE_MODE else 'TOP'} models from OpenRouter API... *****" )	#	?????
+    models_raw_list = getTopModels( free_limit )  ##########
 
     MODELS_BY_PROVIDER = {}
     # Apply Provider Filtering Logic (your original logic, simplified)
@@ -2925,7 +2979,7 @@ def main() -> None:
             MODELS_BY_PROVIDER[provider_key] = model_data
             MODELS.append(model_data)
 
-    if ( is_free_mode ) :  #  args.free  ##########
+    if ( IS_FREE_MODE ) :  #  args.free  ##########
         nmodels = len(MODELS)
         if ( MAX_FREE_MODELS < nmodels ) :
             print(f"Warning: Found {nmodels} free models. Winnowing to {MAX_FREE_MODELS}...")
@@ -2953,6 +3007,16 @@ def main() -> None:
     if args.list_domains:
         list_domains()
         return
+
+    # Determine the final domain name to use for the test.	##########
+    # Note: args.domain_file comes from the --new-domain flag (via dest='domain_file')
+    print( "ARGS.DOMAIN:" , args.domain_file , args.domain )
+    if args.domain_file:	##########	--new--domain
+        domain_name_to_use = args.domain_file
+        print(f"Starting Boswell Test for NEW domain file: '{domain_name_to_use}'...")
+    else:  # This will be the value from -d/--domain, which defaults to 'sample_boswell_query'
+        domain_name_to_use = args.domain 
+        print(f"Starting Boswell Test for domain '{domain_name_to_use}'...")	##########
     
     if args.list_models:
         list_models()
@@ -2964,12 +3028,14 @@ def main() -> None:
         return
     
     # Run tests on all domains
-    if args.all_domains:
+    # if args.all_domains:
+    if args.all_domains > 0 :  ##########
         run_all_domains(args)
         return
     
     # Run the test on a single domain
-    print(f"Starting Boswell Test for domain '{args.domain}'...")
+    # print(f"Starting Boswell Test for domain '{args.domain}'...")
+    print(f"Starting Boswell Test for domain '{domain_name_to_use}'...")
     
     # If models specified, use them, otherwise use all
     if args.models:
@@ -2981,7 +3047,8 @@ def main() -> None:
     
     # Run the test with all options
     results = run_boswell_test(
-        domain_name=args.domain,
+        # domain_name=args.domain,
+        domain_name = domain_name_to_use,	##########	
         output_file=args.output,
         selected_models=models_to_use,
         skip_verification=args.skip_verification,
