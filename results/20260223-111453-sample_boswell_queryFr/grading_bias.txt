@@ -1,0 +1,12 @@
+Model                                    | Grade | Score | Grading Bias         |
+----------------------------------------+-------+-------+----------------------+
+NVIDIA: Nemotron 3 Nano 30B A3B (free)   |  A-   |  94   | Neutral              |
+Qwen: Qwen3 VL 30B A3B Thinking          |  A-   |  94   | Neutral              |
+Google: Gemma 3n 2B (free)               |  B+   |  88   | Strict (-1 grade)    |
+NVIDIA: Nemotron Nano 12B 2 VL (free)    |  A-   |  94   | Neutral              |
+Qwen: Qwen3 VL 235B A22B Thinking        | A-/B+ |  91   | Slightly Strict (-1/3 grade) |
+Qwen: Qwen3 235B A22B Thinking 2507      |  A-   |  94   | Neutral              |
+NVIDIA: Nemotron Nano 9B V2 (free)       |  A-   |  94   | Neutral              |
+DeepSeek: R1 0528 (free)                 |  A-   |  94   | Neutral              |
+----------------------------------------+-------+-------+----------------------+
+OVERALL                                  |  A-   |  94   | Baseline             |

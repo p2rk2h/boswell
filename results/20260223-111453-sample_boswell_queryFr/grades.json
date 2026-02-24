@@ -1,0 +1,1620 @@
+{
+  "domain": {
+    "name": "Sample Political Science - Level 0 AI Policy Analysis",
+    "description": "Level 0 evaluation of AI policy analysis capabilities."
+  },
+  "grades": {
+    "Google: Gemma 3n 2B (free)": {
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "This essay provides a decent overview of the current state of AI governance, touching on key themes and offering some insightful observations. However, it needs significant strengthening in several areas to reach a higher grade.\n\n**Depth of Analysis:** The analysis is somewhat superficial. While it identifies key themes and national approaches, it doesn't delve deeply into the *mechanisms* used to achieve these approaches or the nuanced challenges they face. For example, discussing the EU's risk-tiered architecture requires a more detailed explanation of how those risks are assessed *and* the specific safeguards implemented. Similarly, the discussion of China's data-driven approach lacks a critical examination of its potential for unintended consequences or limitations in transparency. More exploration of the economic and social impacts isn't discussed.\n\n**Clarity and Structure:** The essay is generally well-organized with clear topic sentences. The structure is logical, moving from overarching themes to specific examples and then to a critical insight. However, the writing style is somewhat repetitive and lacks a strong voice. Sentences are often clunky, and transitions between ideas could be smoother. The use of phrases like \"Unique insights\" feels a little tacked on and doesn't organically fit into the overall argument.\n\n**Accuracy of Facts or References:** There are no explicit factual inaccuracies, but the essay lacks sufficient specific referencing.  It *mentions* the OECD AI Policy Observatory and G20 AI initiatives, which require citations to be credible. While the essay correctly identifies various national approaches (U.S., EU, China, UK), it lacks depth regarding specific policies or legislation.\n\n**Overall Coherence:** The essay is coherent in that it presents a consistent argument. However, the connections between ideas are sometimes weak, and the overall narrative could be strengthened by a more compelling central argument. The concluding \"Critical Insight\" feels somewhat like a summary rather than a deeply integrated argument that genuinely builds on the preceding analysis.\n\n**Grade:** C+\n",
+        "grade": "C+",
+        "numeric_grade": 2.25,
+        "cost_info": {
+          "input_tokens": 802,
+          "output_tokens": 447,
+          "input_cost": 0.00040100000000000004,
+          "output_cost": 0.0006705,
+          "total_cost": 0.0010715,
+          "duration": 8.087178707122803
+        }
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "Okay, here's my assessment of the essay, focusing on the requested criteria and culminating in a letter grade.\n\n**Depth of Analysis:** The analysis demonstrates a reasonable superficial understanding of the topic. It identifies key themes and contrasting approaches (EU, US, Singapore/UK/Canada) but lacks in-depth exploration of the *nuances* within each category. For instance, the description of the EU's approach is a little too general; it doesn't delve into *specific* regulatory mechanisms or the philosophical underpinnings of its rights-centric framework. Similarly, the US strategy is described as \"executive-driven\" but doesn't touch upon the complexities of federalism or the different agencies involved. A deeper dive into the specific challenges and successes of each model would significantly enhance the analysis.\n\n**Clarity and Structure:** The essay is generally clear and well-organized. The introduction provides a good overview, and the body paragraphs follow a logical structure, comparing and contrasting different approaches. The use of terms like \"rights-centric,\" \"sector-specific,\" and \"agile\" helps in understanding the distinctions. However, there are a few instances where the language is a bit vague (\"broader societal impacts\"). More concrete examples could improve clarity.\n\n**Accuracy of Facts or References:**  The essay doesn't provide any explicit citations or references, so it's impossible to verify the accuracy of its claims.  Without those, one can only assume the information presented is accurate based on general knowledge of AI policy discussions. However, a good analysis would *always* ground its claims in reputable sources. This is a significant weakness.\n\n**Overall Coherence:**  The essay is coherent in that the different sections flow logically. The conclusion effectively summarizes the main points. However, the lack of specific evidence and the generalized description of policy frameworks result in a somewhat superficial coherence rather than a deeply interconnected and well-supported argument.\n\n\n\n**Grade:** B+\n",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 457,
+          "output_tokens": 427,
+          "input_cost": 0.00022850000000000002,
+          "output_cost": 0.0006405,
+          "total_cost": 0.000869,
+          "duration": 8.453828811645508
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "Here's an evaluation of the essay, following your requested format:\n\n**1) Depth of Analysis:** The essay provides a decent overview of different AI governance approaches, touching on key characteristics of the EU, US, and China. However, the analysis feels somewhat superficial at times. It identifies tensions and divergences but doesn't delve deeply into the *mechanisms* of these approaches, the specific impacts they have on different sectors, or the nuances of their implementation. The statement about the DeepSeek essay offering \"granular insights\" is accurate but doesn't fully reflect the depth of the analysis presented within the essay itself. There's a missed opportunity to explore the complexities of trade-offs between innovation and safety in greater detail.\n\n**2) Clarity and Structure:** The essay's structure is reasonably clear. It starts with a general overview, then focuses on specific regions, and concludes with a summary of common challenges and recommendations. The use of bolding to highlight key phrases and contrasting viewpoints enhances readability.  However, the transitions between paragraphs could be smoother, and the essay relies heavily on summarizing rather than building a strong argumentative thread.  The conclusion feels somewhat generic, lacking a particularly insightful takeaway.\n\n**3) Accuracy of Facts or References:** The essay correctly identifies key regulations and policies (AI Act, sectoral approach, state control). However, it lacks citations. It simply *states* these facts without referencing the sources from which they are derived. This is a significant weakness, as it undermines the essay's credibility. It's important to support claims with evidence.\n\n**4) Overall Coherence:** The essay is generally coherent but lacks a unifying thesis statement that ties all the points together. While the essay discusses the tensions between innovation and safety, it doesn't actively argue for a specific approach or advocate for a course of action. It's more of a descriptive summary than a persuasive argument. The concluding sentence is a bit too general.\n\n**Grade:** C+\n",
+        "grade": "C+",
+        "numeric_grade": 2.25,
+        "cost_info": {
+          "input_tokens": 688,
+          "output_tokens": 452,
+          "input_cost": 0.00034399999999999996,
+          "output_cost": 0.000678,
+          "total_cost": 0.001022,
+          "duration": 9.151567935943604
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "This is a helpful summary of AI policy essays, offering a concise yet insightful overview of the current landscape. However, as a political science professor assessing the *essays* themselves \u2013 which are not provided \u2013 I can only offer feedback based on the summary's quality.\n\n**1) Depth of Analysis:** The summary showcases a decent depth by delving into key themes, significant differences between major jurisdictions, and unique insights. It acknowledges the complexities of the \"balancing act\" and the tension between innovation and regulation. However, it feels somewhat descriptive rather than deeply analytical. It identifies **what** is happening, but not always **why** and **how** these policies are likely to unfold in the long term. The mention of \"official lack of detail on AI-enabled weapons governance\" suggests a potential gap in depth, indicating that the essays might not comprehensively address this critical area.\n\n**2) Clarity and Structure:** The structure is strong. The categorization into \"Key Common Themes,\" \"Significant Differences,\" and \"Unique Insights\" provides a clear framework. The use of bullet points enhances readability. The language is accessible, avoiding excessive jargon. However, the headings could be slightly more descriptive \u2013 for example, \"Implementation Challenges\" might be more precise than just \"Weaknesses.\"\n\n**3) Accuracy of Facts/References:** The summary accurately identifies key policy initiatives (EU AI Act, US Executive Order 2023, etc.) and their general approaches. The consistent grounding in factual evidence strengthens the credibility. A deeper assessment would require examining the source of this information, but the summary's presentation of facts seems reliable, based on the information provided.\n\n**4) Overall Coherence:** The summary is very coherent. The themes flow logically from one to the next, and the overall argument \u2013 that AI policy is complex and requires international alignment \u2013 is well-supported. The concluding statement effectively synthesizes the key takeaways.\n\n**Overall:** The summary demonstrates a strong understanding of the topic and a skillful ability to synthesize information from multiple sources. However, it lacks the depth of theoretical engagement and predictive analysis often expected of a sophisticated political science essay. The focus remains largely descriptive, preventing it from reaching a truly high level of analytical rigor.\n\nGrade: B+\n",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 768,
+          "output_tokens": 506,
+          "input_cost": 0.000384,
+          "output_cost": 0.000759,
+          "total_cost": 0.001143,
+          "duration": 9.50518798828125
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "Okay, here's my assessment of the essay, focusing on your requested criteria and assigning a grade.\n\n**1) Depth of Analysis:** The essay demonstrates a moderate level of depth. It identifies and briefly summarizes major approaches (EU, US, China, UK) and highlights key themes within them. However, the analysis remains somewhat superficial. It mentions specific regulatory details (like the EU's prohibition on social scoring) but doesn't delve deeply into the *mechanisms* and *implications* of these details.  It could benefit from more in-depth exploration of the underlying philosophies driving each approach and the potential long-term consequences. The acknowledgment of varying quality in depth and balance is a good observation, but it doesn't translate into a more sophisticated overall analysis.\n\n**2) Clarity and Structure:** The essay is reasonably clear and logically structured. It follows a relatively straightforward argumentative pattern: introduction outlining the tension between innovation and safeguards, identification of regional models, discussion of key themes, comparison of approaches, and a concluding statement on future directions. The use of topic sentences and transitions is generally effective. However, the writing could be more concise and avoid repetition. The paragraph structure is satisfactory, but some paragraphs could be broken down further to improve readability.\n\n**3) Accuracy of Facts or References:** The essay provides accurate information on the mentioned policies and frameworks \u2013 EU AI Act (2024), US Executive Order & NIST framework, China's state-driven control, and the UK's principle-based pragmatism.  A potential improvement would be to include citations to relevant sources (e.g., policy documents, academic articles, reputable news reports) to substantiate these claims. The essay relies heavily on general statements and doesn't provide concrete evidence to support its assertions.\n\n**4) Overall Coherence:** The essay is generally coherent. The arguments flow reasonably well from one point to the next. However, the connections between different sections could be strengthened by more explicit linking phrases and further elaboration on the relationships between the various approaches.  The conclusion effectively summarizes the main points and offers a forward-looking perspective.\n\n**Overall:** The essay presents a solid overview of the global AI governance landscape but lacks the depth, supporting evidence, and nuanced exploration required for a higher grade.  It touches upon important issues but doesn't fully engage with the complexities of the topic.\n\nGrade: B+\n",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 685,
+          "output_tokens": 532,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.0007980000000000001,
+          "total_cost": 0.0011405,
+          "duration": 9.7220139503479
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "Here's a constructive assessment of the essay, followed by a grade.\n\n**Constructive Feedback:**\n\nThe essay provides a decent overview of the global AI policy landscape, offering a concise summary of key patterns and differences. The organization is logical, progressing from common themes to unique insights and finally to a concluding evaluation. \n\n**Depth of Analysis:** While the essay identifies important policy trends and differing approaches, the analysis could benefit from greater depth. Each of the four models (EU, US, China, Canada/UK/Singapore) requires more nuanced exploration. For instance, the impact of regulatory capture within the US framework could be elaborated upon. Similarly, the long-term implications of China\u2019s state-centric approach beyond strategic goals warrant further consideration. The essay touches on challenges like fragmentation and uncertainty, but doesn't delve into the specific mechanisms exacerbating these issues or potential mitigation strategies.\n\n**Clarity and Structure:** The clarity is generally good, with clear headings and concise paragraphs.  The structure is well-organized, following a logical progression. However, phrases like \"marked by\" and \"limited enforceable reach\" could be tightened for improved readability.  The conclusion effectively summarizes the main points and offers a thought-provoking final statement.\n\n**Accuracy of Facts/References:** The essay accurately identifies key players and initiatives (EU AI Act, US executive order, etc.). However, it lacks specific citations or references to support claims. Assertions about the effectiveness or shortcomings of each model would be strengthened by referencing relevant policy reports, academic studies, or legal analyses.  For example, stating the \"strongest\" aspect of the EU AI Act needs backing.\n\n**Overall Coherence:** The essay exhibits good coherence, with a clear flow of ideas. The transitions between sections are smooth. However, a slightly more explicit linking of the overarching argument (the need for hybrid governance) to the specific observations about each model would enhance coherence. \n\n**Overall:**  The essay demonstrates a foundational understanding of the topic. However, to elevate it, a deeper engagement with the complexities of each policy model, concrete evidence to support claims, and a slightly more explicit articulation of the central argument would be beneficial.\n\nGrade: B+\n",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 878,
+          "output_tokens": 485,
+          "input_cost": 0.000439,
+          "output_cost": 0.0007275,
+          "total_cost": 0.0011665,
+          "duration": 9.810138940811157
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "This essay provides a decent overview of the global AI policy landscape. However, it could benefit from greater depth of analysis and stronger structuring to enhance its overall impact.\n\n**Depth of Analysis:** The essay touches on key themes and policy models (EU AI Act, US sector-specific approach, China's state-centric model), which is commendable. It mentions concrete examples of recent regulations (2023-24), which adds a degree of specificity. However, the analysis remains relatively superficial. For example, the essay mentions \"algorithmic bias\" and \"deepfakes\" without delving into the *specific mechanisms* by which these arise and the nuanced challenges of addressing them. Similarly, the essay fails to deeply explore the economic consequences of different approaches beyond the mention of SME impact.  It lacks in-depth examination of specific policy tools employed within each framework (e.g., risk assessments, transparency requirements, liability frameworks).\n\n**Clarity and Structure:** The essay has a reasonable structure: introduction outlining the tension, body discussing different approaches, and concluding with a summary of challenges and the need for international consensus. However, the transitions between paragraphs could be smoother. The language is generally clear, but the essay sometimes relies on broad generalizations rather than specific arguments. The concluding paragraph feels somewhat repetitive, reiterating points already made. It could benefit from a more concise and impactful summary of the key findings.\n\n**Accuracy of Facts or References:** The essay accurately identifies the key actors and policy frameworks mentioned. However, it would be strengthened by incorporating more specific citations to academic sources or policy documents. While it mentions \"recent regulations (2023-24),\" it doesn't provide any citations to support this claim or to describe those regulations in detail.  Lacking such specific references weakens the accuracy of the claims and makes the essay less credible.\n\n**Overall Coherence:** The essay presents a coherent argument, but lacks a strong central thesis. The introduction doesn't clearly state the essay's main argument about the optimal path forward for global AI governance. The concluding paragraph could better summarize and synthesize the arguments presented throughout the essay.  The essay reads as a descriptive overview rather than a persuasive argument for a particular policy choice.\n\n**Grade:** C+\n",
+        "grade": "C+",
+        "numeric_grade": 2.25,
+        "cost_info": {
+          "input_tokens": 641,
+          "output_tokens": 504,
+          "input_cost": 0.00032050000000000004,
+          "output_cost": 0.000756,
+          "total_cost": 0.0010765000000000002,
+          "duration": 10.15460205078125
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "Okay, here's an evaluation of the essay, focusing on the requested criteria and then assigning a grade.\n\n**1) Depth of Analysis:** The essay exhibits a reasonable depth of analysis, touching upon several key aspects of global AI governance frameworks. It doesn't delve into *extremely* nuanced details but effectively synthesizes information from multiple sources and identifies core tensions and contradictions. The connection between policy and technology (e.g., generative AI and deepfakes) is a plus, demonstrating an attempt to ground analysis in concrete examples. However, the claims about the \"strongest analyses\" and the \"most significant limitation\" could benefit from more specific support and evidence from the source essays.  It's a generally solid overview but lacks a truly groundbreaking, in-depth exploration of any single framework or issue.\n\n**2) Clarity and Structure:** The essay is generally clear and well-organized, employing a logical structure with a clear introduction, body paragraphs addressing different frameworks and nuances, and a concluding summary. The use of topic sentences is effective. It's written in a concise, accessible style suitable for a general audience interested in the topic. Transitions are mostly smooth.\n\n**3) Accuracy of Facts or References:** While the essay doesn't explicitly cite sources within the text, the claims made are broadly accurate and align with current understanding of the AI governance landscape. The essay correctly identifies key actors (EU, US, China, OECD, G20) and relevant initiatives (AI Act, Bletchley Declaration). However, it would significantly strengthen the essay to include citations to support claims, particularly those about the characteristics of each framework's implementation. The essay implicitly assumes knowledge of these frameworks; providing more context would increase clarity.\n\n**4) Overall Coherence:** The essay is coherent, maintaining a consistent theme throughout. The paragraphing is logical, and the ideas flow reasonably well from one to the next. The conclusion effectively summarizes the main points and offers a realistic assessment of the future of AI governance. The framing of the argument\u2014the tension between innovation and safety\u2014is consistently maintained.\n\n**Overall:** The essay presents a competent and well-structured overview of global AI governance. While it demonstrates understanding of the topic, it could benefit from greater depth of analysis, more specific support for its claims, and explicit citations. The strengths in clarity and coherence are offset by these weaknesses.\n\n```\nGrade: B+\n```",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 715,
+          "output_tokens": 538,
+          "input_cost": 0.0003575,
+          "output_cost": 0.0008070000000000001,
+          "total_cost": 0.0011645000000000002,
+          "duration": 10.761994123458862
+        }
+      }
+    },
+    "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "Grade: A+",
+        "grade": "A+",
+        "numeric_grade": 4.25,
+        "cost_info": {
+          "input_tokens": 921,
+          "output_tokens": 202,
+          "input_cost": 0.0004605,
+          "output_cost": 0.00030300000000000005,
+          "total_cost": 0.0007635000000000001,
+          "duration": 3.360197067260742
+        }
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "The essay makes a solid effort to outline the broad contours of AI policy across different jurisdictions, noting common concerns such as bias, misinformation, and societal impact. It effectively highlights contrasting regulatory philosophies \u2014 the EU\u2019s rights\u2011based, risk\u2011averse stance versus the US\u2019s more flexible, sector\u2011specific approach \u2014 and points out the trade\u2011offs each entails. However, the analysis remains largely abstract; it does not delve into concrete policy mechanisms, specific legislative instruments, or empirical outcomes that would demonstrate deeper insight. The structure is coherent but tends toward repetition, and while the overall flow is logical, the lack of detailed examples and citations limits the evidentiary grounding of the claims.\n\nAccuracy is not compromised, but the essay offers no specific references or data points to substantiate its observations, which would have strengthened credibility and depth. Overall coherence is maintained throughout, with a clear progression from identifying commonalities to contrasting differences and concluding with a call for continued collaboration and adaptation.\n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 467,
+          "output_tokens": 698,
+          "input_cost": 0.0002335,
+          "output_cost": 0.001047,
+          "total_cost": 0.0012805,
+          "duration": 3.6090869903564453
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "**Feedback**\n\n1. **Depth of Analysis**  \n   - The essay successfully identifies the major governance models (EU risk\u2011based, US sector\u2011specific, Chinese state\u2011centric, and hybrid UK/Canada) and outlines their core strengths and weaknesses.  \n   - It goes a step further by connecting each model to concrete policy tools such as regulatory sandboxes and innovation labs, and by linking these tools to specific technological contexts (e.g., deep\u2011fake regulation).  \n   - To deepen the analysis, the essay could benefit from a more explicit discussion of the underlying normative assumptions (e.g., how divergent conceptions of privacy or state sovereignty shape each approach) and from a brief evaluation of recent empirical outcomes (e.g., impact assessments of the EU AI Act on SME compliance).  \n\n2. **Clarity and Structure**  \n   - The piece is organized logically: it begins with an overview of the fragmented landscape, then examines common strengths, contrasts implementation differences, and finishes with a forward\u2011looking assessment of harmonisation prospects.  \n   - Transitions between paragraphs are smooth, and each section builds on the previous one, making the argument easy to follow.  \n   - Minor improvements could be made by adding a concise concluding paragraph that directly restates the thesis and synthesises the key take\u2011aways for the reader.  \n\n3. **Accuracy of Facts / References**  \n   - The essay accurately cites the EU AI Act, the OECD AI Principles, the G20 AI Governance discussions, and the Bletchley Declaration, and correctly characterises the EU\u2019s risk\u2011based classification, the US\u2019s voluntary standards, and China\u2019s state\u2011driven deployment.  \n   - While the references are generally reliable, the essay would be stronger if it indicated the specific documents or reports (e.g., \u201cEU Commission, AI Act, 2023\u201d or \u201cOECD, AI Principles, 2019\u201d) to allow readers to verify the claims.  \n\n4. **Overall Coherence**  \n   - The central theme\u2014that global AI governance must balance innovation with safety\u2014and the culminating insight that future frameworks will likely be hybrid are consistently reinforced throughout.  \n   - The essay maintains a coherent thread from the description of current models to the discussion of implementation challenges and future possibilities, resulting in a well\u2011unified narrative.  \n\n**Overall Assessment**  \nThe essay presents a solid, well\u2011structured synthesis of contemporary AI governance models, demonstrating good depth, clear organization, factual correctness, and cohesive argumentation. With a few enhancements\u2014particularly in grounding claims with precise citations and expanding on normative underpinnings\u2014the piece could reach an exemplary level of scholarly analysis.\n\n**Grade:**\n```\nGrade: A-\n```",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 716,
+          "output_tokens": 856,
+          "input_cost": 0.000358,
+          "output_cost": 0.001284,
+          "total_cost": 0.001642,
+          "duration": 6.510744094848633
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "**Depth of Analysis**  \nThe essay provides a sophisticated examination of AI governance, identifying three overarching themes and then drilling into sector\u2011specific mechanisms (U.S. agility, EU risk\u2011tiering, China\u2019s data\u2011driven approach, UK sandbox). It goes beyond surface description by highlighting \u201calgorithmic colonialism,\u201d \u201calgorithmic equity audits,\u201d and the tension between innovation and safety. However, the analysis could be deepened by incorporating more concrete empirical examples\u2014e.g., specific regulatory outcomes in facial\u2011recognition bans or AI\u2011driven credit\u2011scoring cases\u2014to illustrate how these philosophies play out in practice.\n\n**Clarity and Structure**  \nThe piece follows a clear logical progression: introduction of common themes \u2192 strengths \u2192 divergences \u2192 evaluation of quality and gaps \u2192 critical insight. Each section is labeled with bold headings, which aids readability. Transitions between sections are smooth, but a few sentences are dense and could benefit from tighter phrasing (e.g., the clause \u201cthe growing emphasis on international coordination despite regional fragmentation\u201d could be split for clearer emphasis). Adding a brief concluding paragraph that synthesizes the \u201ccritical insight\u201d into actionable recommendations would reinforce the overall structure.\n\n**Accuracy of Facts / References**  \nThe essay correctly references well\u2011known frameworks such as the EU AI Act\u2019s risk\u2011based tiering, the U.S. sector\u2011specific approach, China\u2019s data\u2011driven safety measures, and the UK\u2019s sandbox model. It also mentions relevant bodies like the OECD AI Policy Observatory and the G20 AI initiative. A minor inaccuracy appears when it states that \u201cthe EU\u2019s risk\u2011tiered architecture offers a template for aligning AI development with fundamental rights through binding transparency requirements.\u201d While transparency obligations are indeed central, the final rules are still under negotiation; presenting them as already binding may overstate their current status. Adding citations or footnotes for such claims would strengthen credibility.\n\n**Overall Coherence**  \nThe argument is coherent and consistently tied to the central thesis of balancing innovation with safety. The essay successfully integrates technical detail (e.g., conformity assessment protocols) with normative concerns (e.g., algorithmic colonialism). Nevertheless, a few points feel marginally disconnected\u2014specifically, the discussion of \u201cworkforce displacement mechanisms\u201d and \u201cpsychological impact of policy uncertainty\u201d is brief and could be woven more tightly into the broader coherence of the analysis.\n\n---\n\n**Grade: A-**",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 825,
+          "output_tokens": 1101,
+          "input_cost": 0.0004125,
+          "output_cost": 0.0016515,
+          "total_cost": 0.002064,
+          "duration": 10.972279787063599
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "**Depth of analysis**  \nThe essay offers a well\u2011rounded overview of major AI policy regimes, highlighting the EU\u2019s risk\u2011based approach, the U.S. sector\u2011specific model, China\u2019s state\u2011centric system, and the more principles\u2011based strategies of the UK and Singapore. It correctly identifies key tensions such as innovation versus safety, and it discusses implementation challenges like regulatory fragmentation and the disproportionate impact on SMEs. However, the analysis could be deepened by incorporating concrete case studies (e.g., specific legislative texts or enforcement actions) and by probing how these frameworks interact with emerging technologies like generative AI.\n\n**Clarity and structure**  \nThe piece is organized logically, moving from a global description to regional comparisons, then to cross\u2011cutting challenges and concluding with a synthesis. Transitions are smooth, and the concluding paragraph ties the insights together effectively. A more explicit roadmap \u2014 perhaps a brief outline at the outset \u2014 could help readers anticipate the essay\u2019s progression.\n\n**Accuracy of facts or references**  \nThe references to the EU AI Act, U.S. agency\u2011based guidance, and China\u2019s centralized regulatory posture are factually sound. Mentioning \u201c2023\u201124\u201d regulations is appropriate, though specific citations (e.g., the EU AI Act\u2019s final adoption date or U.S. Executive Order on AI) would strengthen evidential support. Overall, the factual content appears reliable.\n\n**Overall coherence**  \nThe essay maintains a coherent thread throughout, consistently linking themes of safety, innovation, and ethical trade\u2011offs. It avoids oversimplification and acknowledges the nuanced nature of each approach. A tighter conclusion that explicitly states policy recommendations would leave a stronger final impression.\n\n**Overall assessment**  \nThe essay demonstrates solid understanding and clear presentation, but could benefit from richer examples and more precise citations. Given its strengths and areas for improvement, it merits an **A\u2011**.\n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 653,
+          "output_tokens": 889,
+          "input_cost": 0.0003265,
+          "output_cost": 0.0013335,
+          "total_cost": 0.00166,
+          "duration": 6.544438123703003
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "Grade: A",
+        "grade": "A",
+        "numeric_grade": 4.0,
+        "cost_info": {
+          "input_tokens": 798,
+          "output_tokens": 775,
+          "input_cost": 0.00039900000000000005,
+          "output_cost": 0.0011625000000000001,
+          "total_cost": 0.0015615000000000002,
+          "duration": 5.47172212600708
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "**Depth of analysis:**  \nThe essay adeptly outlines the major regulatory paradigms (EU, US, China, UK) and identifies key trade\u2011offs, but it could deepen its examination of how specific mechanisms \u2014 such as the EU\u2019s tiered risk categories, the US NIST\u2011based voluntary standards, or China\u2019s watermarking mandates \u2014 interact with innovation incentives. A more detailed discussion of implementation hurdles (e.g., enforcement capacity, funding, or cross\u2011border coordination) would strengthen the analytical rigor.\n\n**Clarity and structure:**  \nThe piece follows a clear, logical progression: introduction of the policy landscape, overview of common themes, comparative analysis of safety conceptualizations, and a concluding synthesis. Paragraph transitions are smooth, and the concise word count maintains readability. However, a brief roadmap at the outset and a more explicit summary of the \u201chybrid\u201d future model would enhance structural transparency.\n\n**Accuracy of facts or references:**  \nThe essay correctly cites the EU AI Act (2024), the US Executive Order (2023), and relevant Chinese and UK measures. Nevertheless, a few specifics could be clarified \u2014 e.g., the exact scope of the EU\u2019s \u201csocial scoring\u201d prohibition, the current status of NIST\u2019s AI Risk Management Framework beyond the executive order, and recent provincial pilot programs in China. Adding concrete citations or footnotes would improve factual precision.\n\n**Overall coherence:**  \nThe arguments are coherent and persuasive, weaving together divergent viewpoints into a compelling narrative of converging practical standards. The concluding emphasis on adaptability and trust is well\u2011placed. A tighter linkage between the identified challenges and the proposed hybrid solutions would reinforce the essay\u2019s central thesis.\n\n**Overall assessment:**  \nThe essay demonstrates solid understanding and balanced insight, though it would benefit from richer technical detail, deeper case\u2011study analysis, and tighter citation of sources. Given its strengths and modest room for expansion, the appropriate rating is:\n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 694,
+          "output_tokens": 1219,
+          "input_cost": 0.000347,
+          "output_cost": 0.0018285000000000003,
+          "total_cost": 0.0021755000000000004,
+          "duration": 7.649556875228882
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "**Depth of analysis**  \nThe essay effectively outlines the main regulatory philosophies in the EU, US, China, and the UK, and it correctly identifies the innovation\u2011vs\u2011safety tension. However, it stops short of probing underlying reasons for these divergent approaches \u2014 such as differing legal traditions, political cultures, or economic capacities. The mention of \u201cdeveloping nations\u2019 struggles\u201d is brief and could be expanded with concrete examples (e.g., African or Southeast Asian initiatives) to deepen the comparative dimension.\n\n**Clarity and structure**  \nThe response follows a logical progression: introduction of the global landscape, description of each region, discussion of innovation\u2011regulation trade\u2011offs, and a concluding synthesis. Transitions between paragraphs are smooth, and key terms (e.g., \u201crisk\u2011based\u201d, \u201csectoral\u201d, \u201ccentralized\u201d) are clearly defined. Adding sub\u2011headings or bullet points could further enhance readability for readers unfamiliar with policy terminology.\n\n**Accuracy of facts or references**  \nThe factual content is largely correct; the reference to the EU AI Act as a 2024 framework aligns with its formal adoption timeline. The description of US reliance on existing sectoral agencies is accurate, and China\u2019s focus on state\u2011driven security is appropriately noted. A minor nuance: the EU AI Act was formally adopted in 2023 and is scheduled for phased application beginning in 2025, so specifying \u201c2024\u201d may cause slight confusion depending on the reader\u2019s timeline.\n\n**Overall coherence**  \nThe essay maintains a consistent comparative lens throughout, and the concluding paragraph ties together the identified divergences and the need for international coordination. While the synthesis is solid, integrating the identified gaps (e.g., limited coverage of developing economies) would reinforce the coherence and provide a clearer path forward.\n\n**Overall assessment**  \nThe piece demonstrates solid comparative analysis with clear organization and mostly accurate details, but could benefit from deeper contextual insight and a tighter integration of all identified shortcomings.\n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 703,
+          "output_tokens": 1626,
+          "input_cost": 0.0003515,
+          "output_cost": 0.0024389999999999998,
+          "total_cost": 0.0027904999999999996,
+          "duration": 9.69637393951416
+        }
+      }
+    },
+    "NVIDIA: Nemotron Nano 9B V2 (free)": {
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "```\nGrade: A\n```\n",
+        "grade": "A",
+        "numeric_grade": 4.0,
+        "cost_info": {
+          "input_tokens": 712,
+          "output_tokens": 551,
+          "input_cost": 0.000356,
+          "output_cost": 0.0008265000000000001,
+          "total_cost": 0.0011825,
+          "duration": 13.777249813079834
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "The essay demonstrates a strong foundation in analyzing global AI policy frameworks. Depth of analysis is substantial, effectively balancing strengths and weaknesses of each approach (e.g., EU\u2019s rights-centric rigidity vs. US flexibilism, China\u2019s efficiency vs. privacy trade-offs). It incorporates concrete regulatory tools and contextualizes them within broader societal impacts. However, the analysis could deepen by comparing cross-national countermeasures or addressing trade-offs in hybrid models more explicitly. Clarity and structure are generally strong, with clear section headings and logical progression. Some paragraphs (e.g., the summary of Canadian/UK/Singaporean approaches) lack detailed examples, creating minor gaps in explanatory depth. Factual accuracy is largely sound, though \"massive investment\" in Chinese AI is vaguely phrased without specific evidence. Coherence is excellent, with a unifying thesis about hybrid models gaining traction in the conclusion. Minor redundancy in phrases like \"regulatory tools\" and \"societal impact\" slightly weakens precision.  \n\nGrade: A-\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 917,
+          "output_tokens": 701,
+          "input_cost": 0.00045850000000000003,
+          "output_cost": 0.0010515,
+          "total_cost": 0.00151,
+          "duration": 21.212170124053955
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "Grade: A-\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 821,
+          "output_tokens": 566,
+          "input_cost": 0.0004105,
+          "output_cost": 0.0008489999999999999,
+          "total_cost": 0.0012595,
+          "duration": 22.74333691596985
+        }
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "Grade: B-  \n\n**Feedback:**  \n1) **Depth of Analysis**: The essay provides a broad overview of global AI policy approaches, identifying common themes and key differences between regions. However, it could deepen its analysis by offering more specific examples of policies, case studies, or comparative critiques of specific frameworks (e.g., details on the EU AI Act\u2019s risk categories or the U.S.\u2019s current sector-specific regulations). While it touches on tensions between innovation and regulation, further exploration of how these tensions manifest operationally in each region would enhance depth.  \n\n2) **Clarity and Structure**: The essay attempts to cover multiple stakeholders and frameworks but lacks a clear hierarchical structure. Transitions between paragraphs are abrupt (e.g., moving from common themes to differences without explicit linkage). Some sentences are vague or repetitive (e.g., \u201cthe challenge lies in balancing innovation with safety\u201d). A more strategic organization\u2014perhaps grouping by thematic similarities or regional focus\u2014would improve clarity.  \n\n3) **Accuracy of Facts/References**: The claims about EU, U.S., and other regional policies are broadly correct based on common knowledge (e.g., EU\u2019s risk-based approach, U.S. executive focus). However, the lack of citations undermines the ability to verify precise details (e.g., Singapore\u2019s exact governance model). Accuracy is not a critical weakness here but could be strengthened with sources.  \n\n4) **Overall Coherence**: The essay maintains a unified focus on global AI governance but occasionally sacrifices coherence for breadth. It avoids anachronistic or overly technical jargon, though some paragraphs could be condensed or reordered to reflect a logical flow of ideas. The conclusion effectively synthesizes the analysis but lacks a forward-looking contingency plan or urgency tied to specific risks.  \n\nThe essay demonstrates a solid grasp of the topic and synthesizes diverse viewpoints effectively, but improvements in structural precision, depth of specific examples, and tighter transitions would elevate it to a higher grade.\n",
+        "grade": "B-",
+        "numeric_grade": 2.75,
+        "cost_info": {
+          "input_tokens": 463,
+          "output_tokens": 1281,
+          "input_cost": 0.00023150000000000002,
+          "output_cost": 0.0019214999999999998,
+          "total_cost": 0.002153,
+          "duration": 38.446393966674805
+        }
+      }
+    },
+    "Qwen: Qwen3 VL 235B A22B Thinking": {
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay effectively identifies core tensions in AI governance (innovation vs. safety, rights vs. state control) and provides a solid comparative framework. However, it could deepen its analysis by exploring *why* these regional differences exist (e.g., historical/cultural contexts shaping regulatory philosophies) and examining enforcement mechanisms beyond surface-level critiques. The mention of developing nations\u2019 resource constraints is a valuable insight but remains underdeveloped; integrating concrete examples (e.g., Africa\u2019s AI strategy challenges) would strengthen the argument. Overall, the analysis is perceptive but lacks nuanced exploration of underlying drivers and implementation hurdles.  \n\n**2) Clarity and Structure**  \nThe structure is logical: it introduces the global landscape, details regional approaches, highlights key divergences, and concludes with cross-border challenges. Transitions between regions are smooth, and the central thesis (tension between innovation and safety) is consistently referenced. However, clarity suffers in two areas: (a) the phrase \u201cacross essays\u201d (Line 1) is confusing since this is a single essay; (b) the conclusion\u2019s reference to \u201cessays\u201d (e.g., \u201cDeepSeek essay\u201d) creates dissonance, as the text appears to be a standalone analysis. Streamlining these references and breaking overly long sentences (e.g., the 45-word sentence on China) would enhance readability.  \n\n**3) Accuracy of Facts/References**  \nFactual accuracy is generally strong: the EU\u2019s AI Act *is* risk-based and includes bans on harmful AI (e.g., social scoring), the U.S. *does* rely on sectoral regulation, and China *does* prioritize state security. Minor issues include:  \n- The AI Act was **adopted in 2024** (effective 2025), so \u201cAI Act (2024)\u201d is technically accurate but could confuse readers unfamiliar with its phased rollout.  \n- The claim that the U.S. has \u201cno unified federal law\u201d is *mostly* correct but overlooks recent executive orders (e.g., Biden\u2019s 2023 EO) and state-level initiatives, which could have nuanced the \u201cfragmented oversight\u201d point.  \n- \u201cDeepSeek essay\u201d (Line 14) is unclear and likely a drafting error; if referencing a specific source, this requires citation.  \n\n**4) Overall Coherence**  \nThe essay maintains a clear focus on comparing regulatory philosophies and their trade-offs. The innovation/safety tension serves as a cohesive thread, and regional contrasts are logically organized. However, coherence is weakened by the abrupt pluralization of \u201cessays\u201d (which seems unintended) and the underdeveloped critique of developing nations. The conclusion effectively ties together cross-border challenges but could better synthesize how the identified regional divergences impede global coordination.  \n\n---\n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 685,
+          "output_tokens": 1111,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.0016665,
+          "total_cost": 0.002009,
+          "duration": 22.76618504524231
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay effectively identifies core tensions in global AI governance (innovation vs. safety) and provides a nuanced comparison of the EU, US, and Chinese models. It adeptly highlights trade-offs (e.g., the EU\u2019s \"bureaucratic complexity\" vs. the US\u2019s \"regulatory fragmentation\") and acknowledges contextual strengths/weaknesses. However, depth could be enhanced by:  \n- Specifying *how* algorithmic bias manifests differently across regions (e.g., EU\u2019s focus on GDPR-compliant transparency vs. China\u2019s state-driven data collection).  \n- Exploring *concrete examples* of \"gaps\" from regulatory fragmentation (e.g., AI-driven disinformation in elections falling between sectoral regulators).  \n- Discussing *stakeholder perspectives* (e.g., how SMEs navigate the EU AI Act\u2019s conformity assessments). While the conclusion notes \"adaptive capacity\" as key, linking this to real-world enforcement challenges (e.g., resource constraints in oversight bodies) would strengthen analytical rigor.  \n\n**2) Clarity and Structure**  \nThe structure is logical: common themes \u2192 regional differences \u2192 implementation challenges \u2192 synthesis. Topic sentences are clear (e.g., \"Significant differences emerge...\"), and transitions between paragraphs are smooth. However:  \n- The final paragraph\u2019s shift to evaluating \"analyses\" (e.g., \"The analyses demonstrate strong depth...\") is confusing. As a *summary*, it should avoid meta-commentary on other works. Instead, integrate these observations into the core argument (e.g., \"This synthesis reveals that...\").  \n- The phrase \"other nations like the UK and Singapore\" is underdeveloped; briefly naming their frameworks (e.g., the UK\u2019s \"pro-innovation\" white paper) would bolster coherence.  \n- The word count (398) is concise, but trimming generic phrases (\"common themes include...\") would free space for deeper analysis.  \n\n**3) Accuracy of Facts or References**  \nFactual claims are generally accurate:  \n- The EU AI Act *is* risk-based (adopted in 2024) and criticized for SME burdens.  \n- The US *lacks* federal legislation, relying on agency guidelines (e.g., NIST\u2019s AI RMF).  \n- China\u2019s \"state-centric\" model prioritizes security (e.g., Algorithmic Recommendation Regulations).  \nHowever:  \n- The claim that the EU Act is \"widely acknowledged as a comprehensive rights-focused model\" overstates consensus; critics like the Center for Data Innovation argue it *hinders* rights by stifling innovation.  \n- The US\u2019s \"gaps in addressing systemic bias\" need qualification: the FTC *has* pursued bias cases under existing laws (e.g., *EPA v. Facebook*), though sectoral gaps remain.  \n- Avoid implying the UK/Singapore approaches \"lack enforcement\" without evidence (e.g., Singapore\u2019s IMDA *does* enforce its Model AI Governance Framework via advisory guidelines).  \n\n**4) Overall Coherence**  \nThe thesis\u2014nations balance innovation/safety differently, but global coordination is vital\u2014is well-maintained. Key arguments (e.g., \"no single model is optimal\") logically follow from the regional comparisons. However, the concluding paragraph\u2019s focus on \"analyses\" (as if summarizing others\u2019 work) clashes with the essay\u2019s original purpose as a standalone summary. Reorienting this section to *synthesize* the essay\u2019s own findings (e.g., \"This comparison underscores...\") would improve flow. The final sentence (\"measured not by initial design...\") is a strong, cohesive takeaway that ties back to the opening tension.  \n\n---\n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 637,
+          "output_tokens": 1291,
+          "input_cost": 0.0003185,
+          "output_cost": 0.0019364999999999999,
+          "total_cost": 0.002255,
+          "duration": 24.932005167007446
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates **exceptional depth** by moving beyond surface-level comparisons to dissect *how* regulatory philosophies intersect with institutional realities. The analysis of \"algorithmic colonialism\" and \"algorithmic equity audits\" introduces original conceptual framing, while the critique of \"static regulatory boundaries\" in the EU and \"jurisdictional arbitrage\" in the U.S. reveals nuanced understanding of implementation gaps. However, the discussion of \"transitional risks during AI deployment\" and \"psychological impacts of policy uncertainty\" is mentioned but not sufficiently developed. Deeper exploration of how these risks manifest in specific sectors (e.g., healthcare vs. finance) would strengthen the argument. The synthesis of \"regulatory capture\" as an existential challenge is particularly incisive, though further elaboration on *mechanisms* to prevent capture (e.g., independent oversight bodies) would elevate the analysis.  \n\n**2) Clarity and Structure**  \nThe structure is **logically rigorous**, with clear thematic sections that build toward the \"Critical Insight.\" Section headings (\"Strengths in Adaptive Governance,\" \"Key Divergences,\" etc.) effectively guide the reader. However, the transition from \"Quality and Depth Evaluation\" to \"Critical Insight\" feels abrupt; a bridging sentence explicitly connecting the \"gaps\" identified (e.g., under-explored economic impacts) to the \"regulatory capture\" thesis would improve flow. Some sentences are overly dense (e.g., \"The consensus shows robust international collaboration efforts... yet lacks concrete mechanisms...\"), which could be streamlined for readability. Minor issues: the phrase \"empirically data-driven policy execution\" is redundant, and \"sandbox discrepancy\" requires earlier definition.  \n\n**3) Accuracy of Facts or References**  \nFactual claims are **largely precise and well-supported**. Correctly characterizing the EU\u2019s risk-tiered system, the U.S. sectoral approach, and China\u2019s centralized enforcement aligns with current policy landscapes. References to the OECD AI Policy Observatory and G20 initiatives are accurate. However, the term \"algorithmic colonialism\" (attributed to the UK report) lacks citation; this concept is more commonly associated with academic critiques (e.g., by Safiya Noble or Ruha Benjamin) rather than official UK policy documents. While China *does* emphasize \"algorithmic equity\" in draft regulations, the term \"algorithmic equity audits\" is not yet formalized in Chinese policy\u2014this overstates current implementation. These are minor quibbles but warrant correction for scholarly precision.  \n\n**4) Overall Coherence**  \nThe essay maintains **strong coherence** by tethering all observations to the core thesis: global AI governance balances innovation and safety amid fragmentation. The three unifying themes introduced in the opening reappear organically in the conclusion, creating a cohesive narrative. The \"Critical Insight\" section successfully synthesizes earlier points into a forward-looking argument about policy momentum and regulatory capture. One inconsistency: the U.S. is framed as \"agile\" in the strengths section but criticized for \"absence of centralized framework\" in divergences\u2014this tension could be explicitly reconciled (e.g., \"agility *enables* jurisdictional arbitrage\").  \n\n### Recommendations for Improvement  \n- Define niche terms (e.g., \"sandbox discrepancy\") upon first use.  \n- Expand the analysis of transitional risks with 1\u20132 concrete examples (e.g., workforce retraining gaps in EU AI Act implementation).  \n- Verify the origin of \"algorithmic colonialism\" and refine claims about China\u2019s \"equity audits\" to reflect draft-stage policies.  \n- Tighten 1\u20132 overly complex sentences to enhance readability without sacrificing nuance.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 795,
+          "output_tokens": 1340,
+          "input_cost": 0.0003975,
+          "output_cost": 0.00201,
+          "total_cost": 0.0024075,
+          "duration": 25.66704225540161
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates strong comparative analysis by identifying four distinct regulatory paradigms (EU, U.S., China, and pragmatic states) and articulating their trade-offs (e.g., rights vs. innovation, sovereignty vs. ethics). It effectively links policy tools (e.g., sandboxes, tiered risk frameworks) to real-world outcomes, highlighting systemic tensions like fragmentation and the innovation-control dichotomy. However, it could deepen its political-institutional analysis\u2014for instance, by examining *why* the U.S. favors sectoral regulation (e.g., federalism constraints, lobbying dynamics) or how China\u2019s model reflects its authoritarian legitimacy. The discussion of \"hybrid governance\" as a solution is insightful but would benefit from concrete examples of multilateral coordination (e.g., OECD AI Principles implementation gaps).  \n\n**2) Clarity and Structure**  \nThe structure is logical and well-organized, using clear subheadings to separate themes, differences, and evaluation. Key terms (e.g., \"precautionary,\" \"sandbox-style\") are defined contextually, and transitions between sections (e.g., from \"Common Themes\" to \"Key Differences\") are smooth. Minor improvements could include:  \n- Adding a brief introductory sentence framing *why* these four models were selected (e.g., \"as representative of dominant global approaches\").  \n- Streamlining the \"Evaluation\" section to avoid overlap with \"Key Differences\" (e.g., the EU\u2019s complexity is noted twice).  \n- Reducing jargon like \"multi-modal threats\" without explanation.  \n\n**3) Accuracy of Facts or References**  \nFactual accuracy is consistently high:  \n- The EU AI Act\u2019s risk-based tiers and bans on social scoring are correctly described.  \n- The U.S. reliance on agency-specific guidance (FTC/NIST) aligns with current policy.  \n- China\u2019s state-centric model and smart-city deployments are accurately characterized.  \n- References to \"AI Verify\" and sandbox approaches (UK/Singapore) are precise.  \nNo significant errors were noted. The only minor quibble is the phrase \"foundation-model manipulation\" (a niche technical term); specifying \"e.g., jailbreaking\" would enhance accessibility.  \n\n**4) Overall Coherence**  \nThe essay maintains a sharp focus on its central thesis: regulatory diversity stems from competing societal values, with no single optimal model. Arguments are tightly interwoven (e.g., linking \"fragmentation\" to \"emerging capabilities gaps\"), and the conclusion powerfully synthesizes the comparative analysis. The recurring emphasis on the \"innovation vs. control\" tension provides thematic unity. One slight inconsistency: the \"Evaluation\" section claims frameworks are \"too prescriptive *or* too vague,\" but the \"Key Differences\" analysis does not explicitly map this to specific regions (e.g., *is* the EU \"too prescriptive\"?). Clarifying this would strengthen coherence.  \n\n---  \nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 884,
+          "output_tokens": 1141,
+          "input_cost": 0.000442,
+          "output_cost": 0.0017115000000000001,
+          "total_cost": 0.0021535,
+          "duration": 41.383914947509766
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay excels in identifying core tensions (e.g., innovation vs. safety, regulatory agility gaps) and situating policies within broader value systems (EU\u2019s rights-based vs. China\u2019s state-control frameworks). The \"Unique Insights\" section thoughtfully addresses transnational challenges like the \"race to the bottom\" and Global South capacity limitations. However, depth is uneven: environmental impacts and workforce disruption are noted as weaknesses but not explored *within* the analysis itself. Similarly, the brief mention of \"AI-enabled weapons governance\" lacks elaboration on why this oversight matters strategically. To strengthen depth, integrate these gaps into the main analysis (e.g., *how* environmental costs might reshape regulatory priorities) rather than listing them as standalone critiques.  \n\n**2) Clarity and Structure**  \nThe structure is logical, with clear thematic sections that build cohesively toward the concluding synthesis. Bullet points enhance readability, and transitions between \"common themes,\" \"differences,\" and \"insights\" are smooth. However, two critical errors disrupt clarity:  \n- \"PingPong**Public Safety Focus\" and \"Cryptocosm**Innovation Trade-offs\" appear to be typos (likely intended as **Public Safety Focus** and **Innovation Trade-offs**).  \n- \"oficiallack\" should read \"official lack.\"  \nThese mechanical errors confuse the reader and undermine professionalism. Additionally, the \"Quality and Depth Evaluation\" section redundantly restates points from earlier sections (e.g., SME burdens); streamline this by embedding strengths/weaknesses directly into the thematic analysis.  \n\n**3) Accuracy of Facts or References**  \nFactual grounding is robust. Specific references (EU AI Act 2024, China\u2019s generative AI rules, U.S. Executive Order 2023, NIST AI RMF) are current and correctly contextualized. The characterization of EU bans on social scoring and China\u2019s emphasis on stability aligns with documented policies. Minor quibble: The EU AI Act was *proposed* in 2021 and *adopted* in 2024; specifying \"adopted\" would enhance precision. The claim that \"stringent rules may push development to less-regulated regions\" is well-supported by existing scholarship on regulatory arbitrage. No substantive inaccuracies detected.  \n\n**4) Overall Coherence**  \nThe essay maintains a strong through-line: policies reflect competing values, not just technical concerns. The thesis that \"AI\u2019s benefits require guardrails, yet constraints risk ceding strategic advantage\" is consistently reinforced. However, coherence is slightly weakened by:  \n- The aforementioned typos, which create jarring disconnections.  \n- The \"Quality\" section\u2019s repetitive tone (e.g., reiterating SME burdens already covered).  \n- A missed opportunity to link \"emerging economies\" more explicitly to the \"global fragmentation\" theme.  \nTightening these elements would create a more unified narrative.  \n\n### Overall Assessment  \nThis is a well-researched, insightful synthesis that demonstrates mastery of comparative AI policy frameworks. Its greatest strength is framing regulations through geopolitical values rather than technical details. With minor revisions (correcting typos, deepening underexplored weaknesses, and reducing redundancy), it would reach exceptional levels. As is, it remains highly effective but not flawless.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 756,
+          "output_tokens": 1541,
+          "input_cost": 0.000378,
+          "output_cost": 0.0023114999999999998,
+          "total_cost": 0.0026894999999999996,
+          "duration": 29.56206202507019
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates **strong analytical depth** by dissecting regional AI governance models beyond surface-level descriptions. It effectively identifies core trade-offs (e.g., EU innovation stifling vs. rights protection, US fragmentation vs. agility) and contextualizes *why* these tensions arise (e.g., philosophical differences in defining \"public safety\"). The inclusion of specific mechanisms\u2014like the EU\u2019s social scoring ban, China\u2019s deepfake watermarking, and US agency-specific implementation\u2014adds concrete substance. However, the analysis could be deepened by exploring *how* geopolitical competition (e.g., US-China tech rivalry) actively shapes regulatory divergence, or how SME challenges in the EU might exacerbate global regulatory fragmentation. The conclusion\u2019s insight about \"hybridization\" is compelling but would benefit from a brief example (e.g., how Singapore\u2019s framework borrows from EU/US models).  \n\n**2) Clarity and Structure**  \nThe structure is **logical and well-organized**, moving from a clear thesis (innovation-safeguards tension) to regional comparisons, conceptual differences, and a forward-looking synthesis. Transitions between regions are smooth, and the \"quality varies\" paragraph effectively frames the critique of analytical rigor. Minor improvements: The UK\u2019s \"principle-based pragmatism\" is introduced but never elaborated, creating a slight disconnect. Additionally, the shift from \"key common themes\" to \"significant differences\" could be signposted more explicitly (e.g., \"While shared themes exist, divergences in conceptualizing safety reveal deeper philosophical rifts...\").  \n\n**3) Accuracy of Facts or References**  \n**Factual accuracy is excellent**. The EU AI Act\u2019s 2024 implementation date, NIST framework\u2019s role in the US approach, and China\u2019s watermarking requirements are correctly cited. The distinction between the EU\u2019s risk-based tiers, US sectoral fragmentation, and China\u2019s state-driven model aligns with current scholarship. No errors were detected. One nuance: The EU AI Act was *adopted* in 2023 but *applies* in 2024\u20132026; specifying \"2024\" as the effective date (as done) is acceptable but could note phased implementation.  \n\n**4) Overall Coherence**  \nThe essay maintains **strong coherence** throughout. The central tension (innovation vs. safeguards) anchors every section, and the conclusion elegantly ties back to the thesis by emphasizing \"continuous adaptation\" as the success metric. The \"critical consensus\" on hybridization feels earned, not forced. Minor inconsistency: The UK model is mentioned in the opening but omitted from later analysis, slightly weakening the regional comparison\u2019s completeness.  \n\n### Summary  \nThis is a sophisticated, well-researched essay that exceeds expectations for concision (398 words) while delivering nuanced insights. It excels in factual precision and structural logic but would gain from deeper exploration of geopolitical drivers and fuller integration of the UK case. The conclusion\u2019s emphasis on *practical convergence* (e.g., technical standards) over ideological alignment is particularly astute.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 676,
+          "output_tokens": 1167,
+          "input_cost": 0.00033800000000000003,
+          "output_cost": 0.0017505,
+          "total_cost": 0.0020885,
+          "duration": 42.812880754470825
+        }
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "### Feedback on the Essay  \n\n**1. Depth of Analysis**  \nThe essay identifies broad themes in global AI policy (e.g., balancing innovation with safety, rights-centric vs. flexible approaches) but lacks substantive depth. While it outlines high-level differences between the EU, US, and other nations, it avoids critical engagement with *how* these frameworks operate in practice (e.g., no mention of the EU AI Act\u2019s specific tiers of risk, U.S. sectoral regulations like NIST guidelines, or Singapore\u2019s Model AI Governance Framework). The analysis remains descriptive rather than analytical, missing opportunities to explore contradictions (e.g., how the EU\u2019s uniformity might stifle innovation or how U.S. flexibility exacerbates enforcement gaps). The third paragraph\u2019s meta-commentary (\"The quality and depth of the analysis demonstrates...\") is self-referential and undermines scholarly rigor\u2014it should be replaced with original analysis of policy implications, not a self-evaluation.  \n\n**2. Clarity and Structure**  \nThe first two paragraphs follow a logical flow: common themes (Paragraph 1) and divergent implementations (Paragraph 2). However, the third paragraph disrupts coherence by shifting to a detached, third-person appraisal of the essay itself\u2014a critical structural flaw. This section reads like a reviewer\u2019s note, not an integrated conclusion. To improve:  \n- Remove the meta-commentary and replace it with a concise synthesis of key tensions (e.g., \"These models reveal an unresolved tension between regulatory ambition and enforceability\").  \n- Use topic sentences to signpost transitions (e.g., \"While the EU prioritizes rights, the U.S. approach reflects...\").  \n- Avoid vague phrasing like \"sophisticated understanding\" without evidence.  \n\n**3. Accuracy of Facts or References**  \nThe essay accurately summarizes overarching policy philosophies (e.g., the EU\u2019s risk-based approach, U.S. sectoral flexibility), but oversimplifies nuances:  \n- The U.S. strategy is not solely \"executive-driven\"; it involves Congress (e.g., Algorithmic Accountability Act proposals) and state laws (e.g., California\u2019s regulations), which are omitted.  \n- Singapore, the UK, and Canada are grouped as \"agile,\" but their frameworks differ significantly (e.g., the UK\u2019s \"pro-innovation\" white paper vs. Canada\u2019s Algorithmic Impact Assessment).  \n- No specific policies, laws, or sources are cited (e.g., the EU AI Act, NIST AI RMF), weakening credibility. While no overt inaccuracies exist, the lack of concrete examples makes claims feel unsubstantiated.  \n\n**4. Overall Coherence**  \nThe essay starts cohesively but unravels in the third paragraph due to its self-referential tone, which severs the logical thread. Key terms like \"transformative potential\" and \"societal trade-offs\" are used without definition, creating ambiguity. The conclusion should reiterate how policy differences impact global governance (e.g., \"Divergent frameworks may fragment international AI standards\"), not assess the essay\u2019s own quality. Tightening the focus on *policy outcomes*\u2014not the analysis itself\u2014would restore coherence.  \n\n### Suggestions for Improvement  \n- Replace the meta-paragraph with evidence-based conclusions (e.g., \"The EU\u2019s enforcement mechanisms, such as mandatory audits, could address U.S. gaps but may delay AI adoption in healthcare\").  \n- Add 1\u20132 specific policy examples per region to ground claims.  \n- Define \"societal trade-offs\" concretely (e.g., \"U.S. flexibility risks bias in hiring algorithms, as seen in EEOC lawsuits\").  \n- Ensure every paragraph advances the core argument about *why* policy divergence matters.  \n\nGrade: C-",
+        "grade": "C-",
+        "numeric_grade": 1.75,
+        "cost_info": {
+          "input_tokens": 456,
+          "output_tokens": 2959,
+          "input_cost": 0.000228,
+          "output_cost": 0.004438500000000001,
+          "total_cost": 0.0046665000000000005,
+          "duration": 58.402331829071045
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay effectively identifies the core tension between innovation and safety across governance models, highlighting how societal values shape regulatory approaches (e.g., rights-based vs. state-centric). The inclusion of specific examples (e.g., generative AI\u2019s impact on deepfake regulation) adds concrete depth. However, the analysis could be strengthened by:  \n- Exploring *why* philosophical differences (e.g., EU vs. China on privacy) are irreconcilable, beyond stating they \"reflect societal values.\"  \n- Critically examining *how* SME compliance burdens in the EU might inadvertently entrench Big Tech dominance (a nuance absent here).  \n- Addressing counterarguments: Could the US\u2019s \"fragmented\" approach foster *more* innovation than implied?  \n\n**2) Clarity and Structure**  \nThe structure is logical and well-organized, with clear progression from framework descriptions to comparative analysis and limitations. The thesis (\"core tension... central challenge\") is established early and consistently reinforced. Minor improvements:  \n- The transition from \"common strengths\" to \"significant differences\" feels abrupt; a bridging sentence (e.g., \"Despite shared goals, implementation diverges sharply...\") would enhance flow.  \n- The phrase \"unique insights\" (in the third paragraph) is vague; specifying *which* essays provided these would bolster credibility.  \n\n**3) Accuracy of Facts or References**  \nMost references are accurate:  \n- The EU AI Act\u2019s risk-based framework and the OECD/G20\u2019s coordination role are correctly noted.  \n- China\u2019s centralized model and the Bletchley Declaration\u2019s limitations are appropriately contextualized.  \n**One critical error**: The US does *not* have \"sectoral innovation labs\" as formalized entities. While agencies like the FDA *do* run pilot programs (e.g., for health AI), this phrasing overstates institutional coherence and risks implying a unified US framework, which the essay rightly argues is fragmented.  \n\n**4) Overall Coherence**  \nThe essay maintains a strong thematic focus on the innovation-safety trade-off, with all sections tying back to this core challenge. The conclusion effectively synthesizes key insights and proposes a plausible path forward (hybrid frameworks). However:  \n- The claim that hybrid models will \"integrate EU safeguards, US flexibility, and China\u2019s scalability\" lacks specificity. *How* would these be reconciled given their philosophical incompatibility?  \n- The final sentence (\"evolve alongside rapidly advancing AI\") is overly broad; linking it to concrete mechanisms (e.g., sunset clauses, agile review cycles) would strengthen rigor.  \n\n---  \n**Grade**: B+  \n\n```\nGrade: B+\n```",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 699,
+          "output_tokens": 1130,
+          "input_cost": 0.0003495,
+          "output_cost": 0.001695,
+          "total_cost": 0.0020445,
+          "duration": 76.31096196174622
+        }
+      }
+    },
+    "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "```  \nGrade: A-  \n```  \n\n**Feedback:**  \n**Depth of Analysis**: The essay effectively identifies key themes (e.g., balancing innovation/safety, regional policy differences) and critiques frameworks (EU\u2019s rigor vs. US flexibility vs. agile models). However, deeper engagement with specific case studies (e.g., the EU AI Act\u2019s fines, China\u2019s state-driven model, or the Global Partnership on AI) could strengthen analytical depth.  \n\n**Clarity and Structure**: The structure is logical but occasionally overpacked. Complex sentences (e.g., the first paragraph) might benefit from simplification for readability. Clearer transitions between comparisons (e.g., how Singapore\u2019s agility contrasts with the EU\u2019s rigidity) would enhance flow.  \n\n**Accuracy**: Most factual claims align with established frameworks (e.g., EU\u2019s risk-based approach, US\u2019s sectoral strategy). However, the essay omits critical AI policy nuances, such as China\u2019s emphasis on societal control or India\u2019s AI ethics portal. Including these would improve precision.  \n\n**Coherence**: Overall coherence is strong, with a unified focus on AI governance challenges. The conclusion effectively synthesizes themes but could better emphasize the role of global institutions (e.g., UNESCO\u2019s AI recommendations) to reinforce the call for collaboration.  \n\n**Summary**: A well-balanced analysis with minor refinements needed in specificity, clarity, and global contextualization.\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 459,
+          "output_tokens": 816,
+          "input_cost": 0.00022950000000000002,
+          "output_cost": 0.001224,
+          "total_cost": 0.0014535000000000001,
+          "duration": 10.546142816543579
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "Grade: B+\n",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 712,
+          "output_tokens": 907,
+          "input_cost": 0.000356,
+          "output_cost": 0.0013605000000000002,
+          "total_cost": 0.0017165000000000001,
+          "duration": 11.574240922927856
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "The essay demonstrates a **sophisticated and well-organized analysis** of global AI governance models, offering a nuanced comparison of regulatory philosophies across major jurisdictions. Below is the feedback:  \n\n1. **Depth of Analysis**:  \n   The analysis excels in its granularity, dissecting each region\u2019s approach with concrete examples (e.g., EU\u2019s AI Act, U.S. sector-specific fragmentation, China\u2019s state-driven execution). The identification of \"iterative sandbox-style approaches\" and the tension between innovation and control adds nuance. However, the essay could deepen its discussion of how smaller states (e.g., Singapore) uniquely leverage sovereignty or how China\u2019s policies interact with its economic priorities beyond facial recognition.  \n\n2. **Clarity and Structure**:  \n   The structure is logical, with clear thematic and regional breakdowns. The use of headings and bullet points improves readability, though the grouping of Canada, the UK, and Singapore under a single heading feels slightly underdeveloped compared to standalone sections for the EU and China. A transitional paragraph linking these three nations\u2019 shared priorities (e.g., balancing agility with oversight) would enhance cohesion.  \n\n3. **Accuracy of Facts/References**:  \n   All cited policies and frameworks (EU AI Act, U.S. executive order, China\u2019s AI investments) are accurately described. The critique of the EU\u2019s \"complexity burdening SMEs\" aligns with academic debates, though some might argue the Act includes SME exemptions (a minor factual nuance). No major inaccuracies are present.  \n\n4. **Overall Coherence**:  \n   The essay maintains a tight argument that no single model is optimal, supported by evidence of each policymaking style\u2019s trade-offs. The conclusion effectively synthesizes the diversity of approaches while stressing the need for hybrid solutions. The only sterling improvement would be a slightly stronger thematic thread connecting the \"common vulnerabilities\" (e.g., fragmentation) to the proposed solutions.  \n\n**Grade: A\u2212**  \nThe essay is a compelling, well-structured analysis that could refine its comparisons and expand on underdeveloped threads to elevate its universality. However, its current balance of depth, accuracy, and coherence warrants a high grade.\n",
+        "grade": "A",
+        "numeric_grade": 4.0,
+        "cost_info": {
+          "input_tokens": 898,
+          "output_tokens": 1116,
+          "input_cost": 0.000449,
+          "output_cost": 0.0016740000000000001,
+          "total_cost": 0.0021230000000000003,
+          "duration": 13.471944093704224
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "The essay demonstrates **strong depth of analysis**, offering nuanced comparisons of regulatory philosophies across jurisdictions with specific technical examples (e.g., EU conformity protocols, China\u2019s compliance monitoring). It identifies critical challenges like jurisdictional arbitrage and transitional risks, though some areas (e.g., psychological impacts) could expand into deeper exploration.  \n\n**Clarity and structure** are effective, with a logical flow from thematic introduction to regional case studies, evaluation, and synthesis. Minor improvements to paragraph transitions could enhance readability but do not detract from overall coherence.  \n\n**Accuracy** is solid, with credible references to GDPR, OECD initiatives, and region-specific policies. Slight ambiguity in localized terms like \u201csandbox discrepancy\u201d does not undermine broader claims but warrants verification.  \n\n**Overall coherence** is strong, with themes consistently threaded through analysis and evaluation. The essay maintains focus on balancing innovation and safety while addressing systemic vulnerabilities.  \n\n```  \nGrade: A  \n```\n",
+        "grade": "A",
+        "numeric_grade": 4.0,
+        "cost_info": {
+          "input_tokens": 807,
+          "output_tokens": 909,
+          "input_cost": 0.00040350000000000005,
+          "output_cost": 0.0013635000000000001,
+          "total_cost": 0.0017670000000000001,
+          "duration": 10.903410196304321
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "The essay offers a well-organized and coherent comparative analysis of AI governance frameworks across the EU, U.S., China, and democracies, effectively highlighting regional differences in balancing innovation and public safety. Key strengths include clear articulation of each region\u2019s regulatory philosophy, accurate identification of policy tools (e.g., EU\u2019s AI Act, U.S. sectoral approach), and attention to cross-border challenges. The structure is logical, moving from thematic analysis to explicit comparisons and concluding with broader implications. However, the depth of analysis could be enhanced by incorporating specific examples (e.g., case studies of algorithmic bias in hiring or DeepSeek\u2019s role in global AI policy) to substantiate claims. Transitions between regions and themes are generally smooth but occasionally abrupt, and some paragraphs could be tightened for concision (e.g., combining sentences on enforcement challenges in democracies). Factual accuracy is strong, though references to \u201cessays\u201d (e.g., \u201cDeepSeek essay\u201d) lack contextual integration. The focus on developed nations overlooks developing regions\u2019 struggles, a gap that weakens its universal applicability. Overall, it is a high-quality, insightful analysis with minor flaws.  \n\nGrade: A-\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 701,
+          "output_tokens": 838,
+          "input_cost": 0.0003505,
+          "output_cost": 0.0012569999999999999,
+          "total_cost": 0.0016075,
+          "duration": 10.059935092926025
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "The essay demonstrates a strong command of the subject matter, offering a nuanced analysis of regional AI governance models. Its depth is evident in the detailed dissection of the EU AI Act's tiered risk framework, the U.S. sectoral approach, China's state-driven model, and the U.K.'s principle-based pragmatism. It effectively highlights contradictions (e.g., innovation vs. regulation) and explores themes like public safety's contextual framing (individual rights vs. state security). The inclusion of technical specifics\u2014such as the EU's ban on social scoring, China's deepfake watermarking, and U.S. algorithmic auditing efforts\u2014adds substance.\n\n**Clarity and Structure**: The essay maintains a logical flow, beginning with the central tension of AI governance and systematically addressing each regional model. Paragraph transitions are generally smooth, though the discussion of \"public safety\" could benefit from sharper contrasts to strengthen coherence. Longer sentences occasionally hinder readability, but the structure remains adequate for conveying complex ideas.\n\n**Accuracy**: References align with current policy developments (e.g., the EU AI Act's 2024 adoption, the U.S. 2023 Executive Order), and technical details like \"regulatory sandboxes\" and \"algorithmic auditing\" are consistent with real-world frameworks. However, the claim that \"accelerating evolution of generative AI\" uniformly outpaces regulation in all jurisdictions could use qualifiers, as some regions (e.g., strict U.S. directives on election deepfakes) show proactive measures.\n\n**Coherence**: Arguments are well-supported, though the synthesis of diverse regional models into a unified \"hybrid\" conclusion feels slightly underdeveloped. The final emphasis on adaptability and trust-building is compelling but could tie more explicitly to earlier examples (e.g., how the EU's risk tiers might adapt to generative AI threats).\n\nOverall, the essay excels in depth and factual rigor, with minor gaps in transitional clarity and conclusive synthesis. It earns a high grade but not the highest tier due to occasional overambition in technical detail and uneven conceptual connections. \n\n``` \nGrade: A-\n```\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 690,
+          "output_tokens": 1184,
+          "input_cost": 0.000345,
+          "output_cost": 0.001776,
+          "total_cost": 0.002121,
+          "duration": 13.841195106506348
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "```  \nGrade: A-  \n```  \n\n**Feedback:**  \n\n1. **Depth of Analysis**: The essay demonstrates strong analytical depth, particularly in its detailed comparison of jurisdictional approaches (EU, US, China, UK) and their unique trade-offs. The inclusion of concepts like \"regulatory agility\" and \"cryptocosm\" (assuming a typo for \"cryptocosm\" as a placeholder for \"crypto-economic\" or related terms) introduces nuanced trade-offs. However, minor gaps weaken depth: environmental impacts of AI governance and workforce disruption solutions are only superficially addressed, and the \"Global South\" analysis lacks specificity about local capacities beyond \"resource-strapped nations.\"  \n\n2. **Clarity and Structure**: The structure is logical, with clear headings (e.g., \"Key Common Themes,\" \"Significant Differences\") and subpoints. Bullet points and bold text enhance readability. However, transitions between sections (e.g., \"Quality and Depth Evaluation\" to \"Overall\") feel abrupt. The \"Cryptocosm\" heading is unclear and may confuse readers. Minor grammatical issues (e.g., \"oficiallack\" \u2192 \"of lack\") reduce polish but do not impede comprehension.  \n\n3. **Accuracy of Facts/References**: Most references (EU AI Act 2024, China\u2019s generative AI rules, U.S. Executive Order 2023) are accurate. However, the claim that \"China\u2019s ethics-review mechanisms\" and the EU\u2019s rights-impact assessments reflect \"incompatible priorities\" could benefit from citations. The description of India/Brazil as \"resource-strapped\" is broadly accurate but oversimplifies their divergent capacities.  \n\n4. **Overall Coherence**: The essay maintains a cohesive narrative, particularly in the \"Quality and Depth Evaluation\" section, which synthesizes findings effectively. Weaknesses include underdeveloped links between \"Unique Insights\" and the broader argument (e.g., how cryptocosm innovations relate to regulatory fragmentation). The conclusion is strong, emphasizing international alignment but glossing over localized challenges.  \n\n**Overall**: A well-researched, balanced analysis with high scholarly rigor, though minor refinements in clarity and scope would elevate it further.  \n```  \nGrade: A-\n```\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 761,
+          "output_tokens": 1165,
+          "input_cost": 0.00038050000000000003,
+          "output_cost": 0.0017475000000000001,
+          "total_cost": 0.002128,
+          "duration": 13.67890191078186
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "The essay demonstrates a strong command of the subject, offering a nuanced exploration of global AI policy frameworks. It effectively contrasts the EU\u2019s risk-based approach, the U.S.\u2019s sector-specific model, and China\u2019s centralized strategy, while highlighting transnational challenges like deepfakes and regulatory gaps. The integration of concrete examples (e.g., SME impacts in the EU, U.S. agency-driven guidelines) adds depth, and the analysis of trade-offs between innovation and safety shows thoughtful engagement with competing priorities. However, while the structure is logical, a few transitions between themes (e.g., shifts from national examples to broader coordination challenges) could be smoother. The accuracy of factual claims is largely sound, though the vague reference to \"2023-2024 regulations\" without specific citations slightly weakens precision. The conclusion effectively synthesizes the analysis but could more explicitly connect to theoretical frameworks in political science (e.g., regulatory capture, comparative institutionalism). Overall, the essay is thorough and well-organized but leaves room for deeper theoretical grounding and tighter source integration.\n\nGrade: A-\n",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 649,
+          "output_tokens": 1684,
+          "input_cost": 0.00032450000000000003,
+          "output_cost": 0.002526,
+          "total_cost": 0.0028505,
+          "duration": 28.49562382698059
+        }
+      }
+    },
+    "Qwen: Qwen3 VL 30B A3B Thinking": {
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "This analysis demonstrates a solid understanding of key themes in global AI governance but contains significant limitations that prevent it from achieving higher marks. Below is the detailed evaluation:\n\n**1) Depth of analysis**:  \nThe essay identifies core themes (transformative potential, risk mitigation, innovation/safety tension) and contrasts major policy approaches (EU, US, Singapore/UK/Canada). However, it remains largely descriptive without critical engagement. It fails to explore *why* these differences exist (e.g., historical context of EU's rights-based tradition vs. US market-driven ethos), *how* implementation gaps manifest in practice (e.g., EU's enforcement challenges despite strict regulations), or *concrete* trade-offs (e.g., US flexibility vs. potential for unregulated bias). The claim of \"sophisticated understanding\" is unsubstantiated; it lacks scholarly depth in analyzing power dynamics, geopolitical influences, or empirical evidence.  \n\n**2) Clarity and structure**:  \nThe structure is logical: commonalities \u2192 differences \u2192 assessment of analysis quality \u2192 conclusion. Sentences are concise, and transitions are smooth. However, it undermines clarity by inserting self-referential praise (\"The quality and depth of the analysis demonstrates...\") mid-essay, which disrupts objectivity. The conclusion is vague (\"ongoing need for adaptation\") without actionable insights.  \n\n**3) Accuracy of facts or references**:  \n**Major flaw**: The essay makes sweeping claims without citations (e.g., \"All major nations acknowledge concerns,\" \"Singapore, the UK, and Canada represent a more agile... model\"). It misrepresents the US approach as \"executive-driven\" (Congress plays critical roles via bills like the AI Bill of Rights), and oversimplifies the EU\u2019s model (e.g., it doesn\u2019t acknowledge sector-specific exceptions like the AI Act\u2019s \"high-risk\" categories). No sources are cited, violating academic standards.  \n\n**4) Overall coherence**:  \nThe essay maintains a consistent focus on comparative policy frameworks. However, coherence is compromised by:  \n- The abrupt shift from analytical content to self-evaluation (\"The quality and depth...\").  \n- Unsubstantiated generalizations (\"each essay/analysis showcases a nuanced understanding\").  \n- Lack of synthesis linking the identified themes to broader political science concepts (e.g., state capacity, regulatory federalism).  \n\n**Grade: B-**",
+        "grade": "B-",
+        "numeric_grade": 2.75,
+        "cost_info": {
+          "input_tokens": 456,
+          "output_tokens": 1027,
+          "input_cost": 0.000228,
+          "output_cost": 0.0015405,
+          "total_cost": 0.0017685,
+          "duration": 9.804211139678955
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay provides a solid overview of regulatory philosophies but occasionally leans toward descriptive summary rather than critical analysis. It effectively identifies key tensions (e.g., innovation vs. control) and regional distinctions, yet deeper engagement with *why* these differences persist (e.g., cultural, institutional, or geopolitical drivers) would elevate it. For example, it notes China\u2019s \"state-centric\" model but could explore how its *authoritarian governance structure* fundamentally shapes policy outcomes beyond \"sovereignty-driven\" claims. The evaluation section correctly emphasizes \"no single model is optimal\" but lacks nuance on *how* hybrid approaches might operationalize (e.g., \"multilateral coordination\" remains abstract without concrete mechanisms).  \n\n**2) Clarity and Structure**  \nExceptionally clear and logically organized. The headings (\"Common Themes,\" \"Key Differences,\" \"Evaluation\") create a strong scaffold, and bullet points enhance readability. Transitions between sections are smooth (e.g., moving from fragmentation vulnerabilities to regional case studies). However, the conclusion could better synthesize the \"complementary strengths\" by explicitly contrasting how the EU\u2019s \"rights-based rigor\" might *practically* interface with the US\u2019s \"innovation engine\" in transnational contexts (e.g., cross-border data flows).  \n\n**3) Accuracy of Facts or References**  \nFacts are largely accurate and well-integrated:  \n- The EU AI Act\u2019s tiered risk framework (e.g., bans on \"unacceptable-risk\" systems) is correctly cited.  \n- US sector-specific approach (FTC, FDA, NIST) is factual.  \n- China\u2019s state-centric model and Singapore\u2019s \"AI Verify\" are appropriately referenced.  \nMinor caveat: \"Foundation-model manipulation\" is a current challenge but not yet a *definitive* gap in all legislation (e.g., the EU AI Act addresses \"foundation models\" under its risk tiers). This is a nuanced oversight but not critical.  \n\n**4) Overall Coherence**  \nHighly cohesive. The essay maintains a consistent thread: regulatory diversity reflects divergent societal values, necessitating adaptive, hybrid governance. The conclusion powerfully ties regional strengths to future trajectory (\"structural weaknesses will shape AI\u2019s societal impact\"). The phrase \"complementary strengths\" effectively links the regional analysis to the central thesis, avoiding fragmentation.  \n\n### Grade  \nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 884,
+          "output_tokens": 1124,
+          "input_cost": 0.000442,
+          "output_cost": 0.0016860000000000002,
+          "total_cost": 0.002128,
+          "duration": 11.51177191734314
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates strong analytical depth by identifying core tensions (innovation vs. safety) and systematically comparing four governance models. It effectively connects policy frameworks to technological developments (e.g., generative AI\u2019s impact on deepfakes) and societal values (e.g., EU\u2019s rights-based approach vs. China\u2019s state control). However, it could deepen analysis by exploring *how* these models interact with non-state actors (e.g., tech giants, civil society) or historical precedents in regulation. The critique of SME compliance burdens is insightful but lacks concrete examples of *how* these burdens manifest.  \n\n**2) Clarity and Structure**  \nThe structure is logical: fragmentation \u2192 common strengths \u2192 differences \u2192 limitations \u2192 future outlook. Transitions between sections are generally smooth, though the shift from \"overall quality varies across essays\" to \"the most significant limitation\" feels abrupt. Key terms (e.g., \"regulatory sandboxes,\" \"hybrid frameworks\") are well-defined, but the conclusion\u2019s call for a \"hybrid approach\" could be sharpened by specifying *how* EU risk-based safeguards, US flexibility, and China\u2019s scalability would operationalize (e.g., through tiered compliance).  \n\n**3) Accuracy of Facts or References**  \nFacts are largely accurate: the EU AI Act\u2019s risk-based classification, US sectoral fragmentation, China\u2019s state-centric model, and references to OECD/G20/Bletchley Declaration are correct. Minor issues:  \n- The Bletchley Declaration should specify it is the *Bletchley Declaration on AI* (not just \"Bletchley Declaration\").  \n- \"Hybrid frameworks in the UK and Canada\" lacks concrete examples (e.g., UK\u2019s AI Safety Institute, Canada\u2019s Algorithmic Impact Assessment).  \n- \"Deepfake mitigation inadequately addressed\" is broadly true but could cite specific gaps (e.g., US\u2019s lack of federal deepfake laws).  \n\n**4) Overall Coherence**  \nThe essay maintains strong coherence by anchoring all points to the central innovation-safety tension. The conclusion powerfully synthesizes the models into a \"hybrid approach,\" though the transition from \"varied essay quality\" to \"global harmonization challenge\" disrupts flow. The consistent thread of *societal values* (rights, innovation, state control) effectively ties analyses together.  \n\n### Grade  \nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 699,
+          "output_tokens": 1076,
+          "input_cost": 0.0003495,
+          "output_cost": 0.0016140000000000002,
+          "total_cost": 0.0019635,
+          "duration": 10.8246009349823
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "The essay presents a structured comparative analysis of AI governance frameworks, effectively highlighting key regional differences in approach. Below is the requested feedback and grade:\n\n**1) Depth of analysis**: The essay identifies core tensions (innovation vs. safety) and regional distinctions (EU\u2019s prescriptive vs. US\u2019s sectoral vs. China\u2019s state-centric models) clearly. However, it lacks critical depth in several areas: (a) The critique of the EU\u2019s \"stifling innovation\" claim oversimplifies\u2014smaller firms may adapt via exemptions or sandbox regimes not mentioned; (b) China\u2019s \"ethical concerns\" need concrete examples beyond \"lack of transparency\" (e.g., facial recognition in Xinjiang); (c) The omission of developing nations\u2019 perspectives is noted but not explored (e.g., how AI governance gaps exacerbate inequality). While the EU/US comparison is strong, China\u2019s model warrants deeper scrutiny of *how* its \"state stability\" prioritization manifests in policy outcomes.\n\n**2) Clarity and structure**: Well-organized with a logical flow: introduction \u2192 regional breakdown \u2192 thematic divergences \u2192 synthesis. Transitions between regions are smooth (e.g., \"In contrast,\" \"Meanwhile\"). The thesis (\"tension between fostering innovation and ensuring public safety\") is consistently reinforced. Minor issue: The final paragraph shifts abruptly to \"quality\" and \"essays\" (referencing unspecified sources), undermining focus. Conciseness is generally good (399 words), but the conclusion could better integrate the \"cross-border challenges\" theme.\n\n**3) Accuracy of facts/references**: Generally accurate: EU AI Act *is* risk-based (2024 implementation), US lacks federal AI law (relies on sectoral bodies), China prioritizes \"social order\" in its regulations (e.g., 2023 Cybersecurity Law amendments). However, *major flaw*: The phrase \"DeepSeek essay\" appears without context\u2014it\u2019s not a real academic source (DeepSeek is an AI model). This undermines credibility. Also, \"pragmatic, principle-based guidance\" for UK lacks specific examples (e.g., NICE guidelines for healthcare AI), reducing precision.\n\n**4) Overall coherence**: Strong thematic unity around innovation/safety tensions and regional divergence. The conclusion ties back to the thesis but feels underdeveloped. The \"quality\" section is disjointed from the main argument (it introduces a new subject\u2014\"essays\"\u2014without explaining *whose* essays). The core analysis remains coherent, but this structural flaw slightly weakens the whole.\n\n---\n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 685,
+          "output_tokens": 916,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.001374,
+          "total_cost": 0.0017165000000000001,
+          "duration": 8.075300216674805
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "The essay demonstrates strong analytical sophistication and a nuanced understanding of AI governance complexities, but certain limitations in scope and execution prevent it from reaching the highest tier. Here is my assessment:\n\n**1) Depth of Analysis**:  \nThe essay excels in identifying core themes (innovation-safety tension, ethical enforcement mechanisms, international coordination) and provides rich comparative analysis of major regulatory frameworks (EU, US, China, UK). It effectively unpacks *why* differences exist (e.g., \"centralized decision-making\" in China vs. \"decentralized experimentation\" in the US) and highlights underexplored concepts like \"algorithmic colonialism\" and \"sandbox discrepancy.\" However, depth is occasionally sacrificed for breadth\u2014e.g., while mentioning \"workforce displacement mechanisms,\" it doesn\u2019t explore *how* policies address this (e.g., EU\u2019s proposed AI workforce retraining vs. US sectoral approaches). The analysis of \"transitional risks\" and \"psychological impact of policy uncertainty\" is noted but not developed, representing a missed opportunity for deeper critical engagement.  \n\n**2) Clarity and Structure**:  \nStructure is logical and well-organized: thematic introduction \u2192 strengths \u2192 divergences \u2192 quality evaluation \u2192 critical insight. The use of bolded key themes aids readability. However, transitions between sections (e.g., from \"Key Divergences\" to \"Quality and Depth Evaluation\") are abrupt, and the final \"Critical Insight\" section feels like a new topic rather than a synthesis. Some sentences are overly dense (e.g., \"Broader oversight includes assessments of workforce displacement mechanisms across all regions, though economic impacts remain under-explored\"), reducing accessibility without sacrificing scholarly rigor.  \n\n**3) Accuracy of Facts or References**:  \nMost claims are factually sound:  \n- EU\u2019s risk-tiered architecture (Article 5 of AI Act) and GDPR influence are correctly referenced.  \n- China\u2019s \"algorithmic equity audits\" (from 2023 AI Governance Guidelines) and data-driven policy execution are accurately described.  \n- US sector-specific frameworks (e.g., FDA for healthcare AI) and sandbox approaches (UK\u2019s FCA) are well-placed.  \nMinor issues include the vague reference to \"China\u2019s empirically data-driven policy execution\" without specifying *which* policies (e.g., 2022 AI Regulation Draft) and the assumption that the EU\u2019s \"static regulatory boundaries\" are *inherently* obsolete (the AI Act\u2019s \"living\" provisions mitigate this).  \n\n**4) Overall Coherence**:  \nThe essay maintains strong thematic coherence throughout, consistently returning to the core tension between innovation and safety. The critical insight about \"regulatory capture\" effectively ties together all case studies. However, the conclusion\u2019s claim that the analysis provides a \"comprehensive roadmap\" is overstated\u2014while it identifies vulnerabilities, it lacks actionable proposals for *how* to resolve them (e.g., \"how\" to prevent capture in decentralized systems). This gap slightly undermines the synthesis.  \n\n**Grade**: A-  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 795,
+          "output_tokens": 1176,
+          "input_cost": 0.0003975,
+          "output_cost": 0.001764,
+          "total_cost": 0.0021615,
+          "duration": 10.247620105743408
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay identifies key tensions (innovation vs. safety) and regional differences (EU, US, China) effectively, with concrete references to frameworks like the EU AI Act (2024) and US sectoral approach. It rightly highlights nuanced trade-offs (e.g., EU\u2019s rights focus vs. US flexibility) and critical gaps (regulatory fragmentation, SME burdens). However, depth could be strengthened by *exploring why* these differences emerge (e.g., historical context, cultural values underlying policy choices) and *more specific examples* of implementation challenges (e.g., how SMEs actually struggle under EU\u2019s compliance costs). The conclusion\u2019s emphasis on \"adaptive capacity\" is insightful but lacks concrete mechanisms for achieving it. Overall, analysis is thoughtful but occasionally skims the surface of complex drivers.  \n\n**2) Clarity and Structure**  \nExceptionally clear and well-structured. The essay opens with a strong thesis, progresses logically through regional comparisons, and synthesizes insights concisely. Paragraphs are focused, transitions are seamless, and jargon is minimal. The conclusion effectively ties together themes without repetition. Minor nitpick: The phrase \"The analyses demonstrate strong depth...\" (line 10) shifts abruptly to an *external* analysis instead of the essay itself; this could be rephrased for consistency. Word count (398 words) is appropriate for a summary.  \n\n**3) Accuracy of Facts or References**  \nFacts are largely accurate and timely:  \n- EU AI Act\u2019s risk-based classification (2024) is correctly described.  \n- US reliance on agency guidelines (e.g., FTC, NIST) over federal law is accurate.  \n- China\u2019s \"state-centric\" model aligns with documented priorities (e.g., *China\u2019s New Generation AI Development Plan*).  \n- Concerns like algorithmic bias, deepfakes, and SME burdens are well-documented in policy literature.  \n*Minor caveat*: \"2023-24\" is slightly vague (EU AI Act *was* finalized in 2024, but implementation phases started earlier). No citations are needed for a summary, but specificity would bolster credibility.  \n\n**4) Overall Coherence**  \nHighly coherent. Every section reinforces the central tension (innovation vs. safety) and regional divergence. The flow from problem \u2192 regional models \u2192 implementation challenges \u2192 global implications is logical. The final paragraph synthesizes themes effectively, though the shift to \"The analyses demonstrate...\" weakens cohesion. No tangents; all points support the core argument that no single model is optimal.  \n\n---  \nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 637,
+          "output_tokens": 1239,
+          "input_cost": 0.0003185,
+          "output_cost": 0.0018585000000000001,
+          "total_cost": 0.002177,
+          "duration": 11.277842998504639
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates strong analytical depth in identifying core tensions (innovation vs. safeguards) and regional distinctions. It effectively synthesizes key frameworks (EU AI Act, US Executive Order, China\u2019s model) with concrete examples (e.g., EU social scoring prohibition, China\u2019s watermarking mandates). However, it occasionally oversimplifies drivers of divergence: for instance, the EU\u2019s rights-centric approach is linked to \"fundamental rights\" without exploring historical contexts like GDPR\u2019s influence or the role of civil society. The discussion of \"public safety\" differences is insightful but could delve deeper into how cultural values (e.g., individualism vs. collectivism) shape these definitions. The conclusion\u2019s emphasis on \"hybrid frameworks\" is compelling but lacks specificity on *how* such hybrids might operationalize (e.g., cross-border mutual recognition of audits).  \n\n**2) Clarity and Structure**  \nThe essay is exceptionally clear and logically structured. It opens with a thesis on the innovation-safeguards tension, systematically compares regional models using parallel points (e.g., \"EU: comprehensive risk-based,\" \"US: sectoral flexibility\"), and concludes with a forward-looking synthesis. Transitions between paragraphs are smooth, and the 398-word length is efficient. Minor issues: The phrase \"Key common themes emerge across all perspectives\" is vague\u2014referring more explicitly to \"regulatory design principles\" would sharpen focus. The final paragraph\u2019s claim that \"no single jurisdiction has yet mastered\" adaptation is impactful but could be anchored to a brief example (e.g., the EU\u2019s delayed implementation of the AI Act).  \n\n**3) Accuracy of Facts or References**  \nMost facts are precise:  \n- EU AI Act (2024) *is* the proposed law (currently under negotiation; the essay correctly notes its \"implementation phase\" in context).  \n- US 2023 Executive Order and NIST framework are accurately cited.  \n- China\u2019s watermarking requirements for deepfakes align with 2023 policies.  \n**Critical inaccuracy**: The EU *prohibits social scoring as a high-risk use case* (e.g., in the AI Act\u2019s Annex III), not \"social scoring\" as a concept. This overstatement risks misrepresenting EU policy. The essay also omits that the EU\u2019s SME compliance burdens are *intended* to be mitigated by tiered regulations, not merely \"disproportionate\" (a nuance weakened in the critique).  \n\n**4) Overall Coherence**  \nThe essay maintains strong coherence throughout. All sections reinforce the central thesis about regional trade-offs, with consistent terminology (e.g., \"public safety\" framing). The shift from descriptive analysis (region-by-region) to prescriptive synthesis (\"hybrid frameworks\") is seamless. One weakness: The phrase \"Unique insights include...\" feels tacked-on rather than integrated; these details (regulatory sandboxes, algorithmic auditing) could be woven into the regional comparisons for greater flow.  \n\n### Grade  \nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 676,
+          "output_tokens": 1304,
+          "input_cost": 0.00033800000000000003,
+          "output_cost": 0.0019560000000000003,
+          "total_cost": 0.0022940000000000005,
+          "duration": 11.617678165435791
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay provides a solid overview of key regulatory frameworks but lacks sufficient depth in critical areas. While it correctly identifies tension points (e.g., innovation vs. safety, value-based policy divergence), it fails to explore *why* these tensions exist at a structural level (e.g., how state capacity or geopolitical priorities shape regulatory choices). The \"Unique Insights\" section mentions \"innovation trade-offs\" and \"global fragmentation\" but does not unpack *how* these phenomena manifest in concrete governance failures (e.g., specific cases of regulatory arbitrage). The analysis of environmental impacts and workforce disruption is notably superficial, reducing the essay\u2019s analytical weight.  \n\n**2) Clarity and Structure**  \nThe structure is logical (themes \u2192 differences \u2192 insights), but execution is inconsistent. Key sections lack smooth transitions (e.g., abrupt shift from \"Significant Differences\" to \"Unique Insights\"). Terminology is occasionally confusing (e.g., \"Cryptocosm\" appears unexplained in a scholarly context). Bullet points improve scannability but sacrifice nuance; for instance, the EU\u2019s \"compliance burdens on SMEs\" is stated without evidence of *how* this manifests (e.g., costs, bureaucratic hurdles). The conclusion is vague (\"indispensability of international alignment\") without suggesting *how* alignment might be achieved.  \n\n**3) Accuracy of Facts or References**  \nCritical factual errors undermine credibility:  \n- The EU AI Act is **not yet finalized** (as of 2024); it remains in the adoption phase.  \n- China\u2019s generative AI rules were issued in **2023**, not 2024.  \n- The \"U.S. Executive Order 2023\" is imprecise (it was **EO 14110**, signed May 2023, but the essay omits this).  \n- The term \"officiallack of detail\" in the final sentence appears to be a typo (\"official\" + \"lack\"), weakening professionalism.  \nOther claims (e.g., \"EU leads with rights-based bans\") are accurate but lack citation sources.  \n\n**4) Overall Coherence**  \nThe essay starts with strong thematic framing but loses cohesion. The \"Significant Differences\" section lists contrasts without showing *how* they interconnect (e.g., why does China\u2019s \"state-aligned efficiency\" *cause* global fragmentation?). The \"Quality and Depth Evaluation\" section contradicts itself: it praises the \"nuanced analysis of implementation challenges\" but notes \"sporadic coverage of Global South capabilities\" \u2014 a flaw not addressed in the main text. The core tension (\"benefits require guardrails...\") is well-posed but not integrated into the analysis.  \n\n### Grade  \nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 756,
+          "output_tokens": 1046,
+          "input_cost": 0.000378,
+          "output_cost": 0.001569,
+          "total_cost": 0.0019470000000000002,
+          "duration": 9.021416902542114
+        }
+      }
+    },
+    "Qwen: Qwen3 235B A22B Thinking 2507": {
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "### Feedback on Global AI Policy Essay  \n\n#### 1) Depth of Analysis  \nThe essay identifies key themes in global AI governance (e.g., balancing innovation with safety, regional approaches) but lacks substantive depth. While it correctly notes the EU\u2019s risk-based framework, the U.S. sectoral strategy, and agile models in Singapore/UK/Canada, it fails to:  \n- Critically engage with *why* these differences exist (e.g., cultural values, legal traditions, economic priorities).  \n- Explore concrete examples (e.g., the EU AI Act\u2019s prohibited AI systems vs. U.S. state-level laws like Illinois\u2019 Biometric Information Privacy Act).  \n- Address gaps, such as China\u2019s state-centric model or Global South perspectives, undermining the claim of a \"global\" analysis.  \nThe conclusion\u2019s assertion of \"sophisticated understanding\" is unsubstantiated\u2014analysis remains descriptive, not analytical. No theoretical frameworks (e.g., regulatory federalism, transnational governance) are invoked to deepen insights.  \n\n#### 2) Clarity and Structure  \nThe structure is logically organized into commonalities \u2192 differences \u2192 conclusion, aiding readability. However:  \n- The transition to the final paragraph is abrupt, shifting from analysis *of* policies to meta-commentary *about* the analysis itself (e.g., \"the quality and depth demonstrates a sophisticated understanding\"). This creates confusion: Is the essay describing policy *or* evaluating its own quality?  \n- Key terms like \"agile, collaborative model\" lack definition. Vague phrases (\"broader societal impacts,\" \"regional needs\") reduce precision.  \n- Sentences are generally clear but oversimplified (e.g., \"The challenge lies in balancing innovation with safety\" neglects *how* this balance is concretely achieved).  \n\n#### 3) Accuracy of Facts or References  \n- **Accurate**: The EU\u2019s rights-centric approach (per GDPR/AI Act), U.S. sectoral flexibility, and Singapore/UK adaptive strategies align with current scholarship.  \n- **Inaccurate/Oversimplified**:  \n  - The U.S. strategy is mischaracterized as \"executive-driven.\" Federal AI policy is largely fragmented (state laws, White House EO 14110, NIST frameworks), not unified under executive action. Congress has yet to pass comprehensive federal AI legislation.  \n  - Omission of China (a major AI policy actor) weakens the \"global\" scope.  \n  - Uncited claims like \"all major nations acknowledge concerns\" lack evidence; Russia or some Global South nations prioritize AI for state control over rights.  \n- No specific sources are referenced, making verification impossible.  \n\n#### 4) Overall Coherence  \nThe essay begins coherently but loses focus in the conclusion. The opening paragraphs objectively compare policies, yet the final section abruptly shifts to self-praising language (\"demonstrates a sophisticated understanding,\" \"nuanced understanding of strengths and weaknesses\"). This contradicts the earlier descriptive tone and creates internal dissonance\u2014is the author analyzing policy *or* the essay itself? The claim of \"avoiding individual attribution\" is irrelevant since no sources are cited, making the \"unified and objective assessment\" assertion hollow.  \n\n### Summary  \nThe essay provides a surface-level overview of AI governance models but lacks critical analysis, theoretical grounding, and nuanced evidence. Structural clarity is undermined by a jarring, self-referential conclusion. Factual oversights (e.g., U.S. policy mechanics, China\u2019s absence) and unsubstantiated claims reduce credibility. It meets basic expectations for identifying policy frameworks but falls short of rigorous political-science analysis.  \n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 454,
+          "output_tokens": 1294,
+          "input_cost": 0.00022700000000000002,
+          "output_cost": 0.001941,
+          "total_cost": 0.0021680000000000002,
+          "duration": 29.530382871627808
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "### Feedback on \"Integrated Summary of Global AI-Policy Analyses\"  \n\n#### 1) **Depth of Analysis**  \nThe essay demonstrates strong analytical depth for its concise scope (350 words). It effectively distills *why* regulatory divergence exists by linking structural factors (e.g., EU\u2019s rights-centric culture, U.S. anti-centralization ideology, China\u2019s state-driven priorities) to concrete policy outcomes. Notably, it advances beyond description to evaluate trade-offs (e.g., EU\u2019s \"legal certainty vs. SME burden,\" U.S. \"innovation vs. systemic gaps\"). However, depth could be enhanced by briefly addressing *how power dynamics*\u2014such as corporate lobbying in the U.S. or authoritarian control in China\u2014shape these frameworks. The conclusion\u2019s emphasis on hybrid models and multilateral coordination is perceptive but slightly underdeveloped. Still, within word constraints, this is a sophisticated synthesis.  \n\n#### 2) **Clarity and Structure**  \nExcellently organized. Sections flow logically: universal themes \u2192 jurisdiction-specific contrasts \u2192 evaluative synthesis. Bullet points efficiently categorize complex ideas without sacrificing nuance (e.g., distinguishing \"fragmentation\" from \"iterative approaches\"). Transitions between sections are smooth, and key terms (\"sandbox,\" \"risk-based framework\") are clearly contextualized. Minor improvement: The \"Evaluation\" header slightly disrupts the thematic progression; integrating evaluation into the \"Key Differences\" section (e.g., \"Implications of Divergence\") might enhance cohesion. Overall, structure serves the argument impeccably.  \n\n#### 3) **Accuracy of Facts or References**  \nFactual precision is outstanding. All referenced policies (EU AI Act, U.S. executive order, China\u2019s social-scoring bans) align with current developments. Specific examples\u2014like Singapore\u2019s AI Verify toolkit, NIST\u2019s role in the U.S., and China\u2019s smart-city deployments\u2014are correctly attributed. No overstatements: e.g., noting the U.S. lacks \"overarching federal law\" (not \"no regulation\") and acknowledging Canada/UK/Singapore\u2019s \"principle-based\" (not \"no-rule\") approaches. Citations of tools (safety-case reporting, ethical impact assessments) reflect real-world governance mechanisms. Zero factual errors detected.  \n\n#### 4) **Overall Coherence**  \nExceptional coherence. A unifying thread\u2014the innovation/safety tension\u2014anchors every paragraph, from universal themes to jurisdiction-specific critiques. The conclusion powerfully synthesizes earlier points (\"complementary strengths... structural weaknesses\") without introducing new ideas. Terminology remains consistent (e.g., \"fragmentation,\" \"pragmatic\"), and the thesis (\"no single model is universally optimal\") is reinforced throughout. Even within tight word limits, the argument feels complete and logically airtight.  \n\n### Summary  \nThis is a polished, graduate-level synthesis that balances breadth and precision. While a slight expansion of the evaluation section could add theoretical depth, the essay excels in structure, accuracy, and clarity\u2014turning complex policy landscapes into an insightful, evidence-driven narrative. It meets all requirements for high-level political science analysis.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 882,
+          "output_tokens": 1174,
+          "input_cost": 0.000441,
+          "output_cost": 0.001761,
+          "total_cost": 0.002202,
+          "duration": 28.26430630683899
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay effectively identifies core tensions in AI governance (innovation vs. safety, rights vs. state control) and compares regional approaches with notable precision. Strengths include clear differentiation of the EU\u2019s risk-based model, the U.S.\u2019s sectoral flexibility, and China\u2019s state-centric priorities. However, the analysis lacks granularity on *how* these frameworks interact globally (e.g., extraterritorial effects of the AI Act) or *why* developing nations are omitted beyond a passing mention. The critique of the EU\u2019s innovation constraints and U.S. oversight gaps is apt, but deeper exploration of trade-offs (e.g., how \"fundamental rights\" manifest in enforcement) would strengthen rigor.  \n\n**2) Clarity and Structure**  \nThe structure is logical: a strong thesis-driven introduction, regional comparisons organized by priority (innovation/safety), and a synthesizing conclusion. Topic sentences guide paragraphs well (e.g., \"A key divergence lies in...\"). Yet, clarity suffers from ambiguous phrasing: citing \"across essays\" and \"the DeepSeek essay\" in a standalone analysis implies meta-commentary on external sources, confusing the single-essay context. Removing these references would sharpen focus. The 399-word limit is well-managed, but transitions between regional critiques (e.g., China to UK) feel abrupt.  \n\n**3) Accuracy of Facts or References**  \nMost facts are accurate:  \n- \u2705 The EU AI Act *is* risk-based and prohibits specific applications (e.g., social scoring).  \n- \u2705 U.S. sectoral regulation *does* rely on existing agencies (FTC/FDA), with no federal AI law.  \n- \u2705 China\u2019s focus on state security over individual rights *is* well-documented.  \n\u26a0\ufe0f **Critical error:** The AI Act was **adopted in March 2024** but will be **phased in from 2025\u20132028** (not effective in \"2024\" as stated). This undermines credibility.  \n\u26a0\ufe0f Minor issue: UK\u2019s approach is shifting toward *mandatory* requirements for high-risk AI (e.g., via the AI Regulation White Paper), not purely \"voluntary standards.\"  \n\n**4) Overall Coherence**  \nThe essay maintains a cohesive argument about governance tensions but stumbles with inconsistent framing. Opening with \"the global landscape... revealed across essays\" and later critiquing \"essays\u2019\" depth creates dissonance in a piece clearly analyzing external cases\u2014not reviewing multiple student essays. This distracts from the core analysis. The conclusion adeptly links themes (innovation/safety, global coordination), yet the structural hiccup with plural \"essays\" weakens synthesis.  \n\n**Key Recommendations**  \n- Correct the AI Act timeline and UK regulatory nuances.  \n- Replace meta-references (e.g., \"essays provide\") with direct analysis of governance models.  \n- Expand *one* regional comparison (e.g., EU/China enforcement mechanisms) to deepen analysis.  \n- Clarify transitions between regions (e.g., \"Unlike the EU, the U.S. prioritizes...\").  \n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 683,
+          "output_tokens": 1220,
+          "input_cost": 0.0003415,
+          "output_cost": 0.00183,
+          "total_cost": 0.0021715,
+          "duration": 30.08569622039795
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "feedback": "### Feedback on \"Integrated Summary: Global AI Governance Frameworks\"  \n\n#### 1) Depth of Analysis  \nThe essay excels in identifying key governance models (EU, US, China, hybrid frameworks) and their core tensions, particularly the innovation-safety dichotomy. It thoughtfully connects policy approaches to societal values (e.g., EU\u2019s rights-based vs. US innovation focus), which demonstrates strong conceptual awareness. However, depth is undermined by superficial treatment of critical nuances:  \n- Claims about China\u2019s model \"excel[ing] in rapid implementation\" lack analysis of *how* state control enables this (e.g., centralized data infrastructure) or concrete examples (e.g., AI-driven healthcare rollout in Hangzhou).  \n- The discussion of \"regulatory gaps\" (e.g., deepfakes) remains descriptive without exploring *why* gaps persist (e.g., jurisdictional conflicts between federal/state agencies in the US).  \n- The conclusion\u2019s call for \"hybrid approaches\" is sensible but underdeveloped; it fails to address *feasibility* (e.g., ideological incompatibilities between EU privacy rights and China\u2019s surveillance priorities).  \n**Recommendation**: Strengthen with specific case studies (e.g., EU AI Act\u2019s impact on medical AI startups) and engage with scholarly debates on convergence theory in transnational regulation.  \n\n#### 2) Clarity and Structure  \nThe structure is logically organized\u2014moving from model descriptions to strengths, differences, and limitations\u2014and transitions smoothly between sections. Key strengths include:  \n- Clear framing of the central tension (innovation vs. safety) in the opening.  \n- Effective use of parallel structure (e.g., \"EU\u2019s..., US\u2019s..., China\u2019s...\").  \nHowever, minor issues reduce precision:  \n- Ambiguous phrasing: \"Overall quality varies across essays\" lacks specificity (e.g., *which* essays? What criteria define \"quality\"?).  \n- Overgeneralization: Describing \"most essays\" without defining scope weakens credibility.  \n- Jargon like \"regulatory sandboxes\" is used without brief contextualization for non-specialists.  \n**Recommendation**: Replace vague references (e.g., \"several essays\") with explicit examples; define niche terms parenthetically on first use.  \n\n#### 3) Accuracy of Facts or References  \nMost factual claims align with current scholarship (e.g., EU\u2019s risk-based approach, OECD/G20 coordination). Notable strengths:  \n- Correct identification of the EU AI Act as a regulatory precedent.  \n- Accurate portrayal of US sectoral fragmentation (e.g., FTC vs. NHTSA oversight gaps).  \n**Critical inaccuracies**:  \n- China\u2019s model is described as raising \"ethical concerns regarding transparency,\" but omits that its *New Generation AI Governance Principles* (2021) explicitly mandate transparency\u2014a nuance crucial to political-science analysis of state-co-opted ethics.  \n- The \"Bletchley Declaration\" (2023) is cited as fostering \"global harmonization,\" yet it is a non-binding political statement with no enforcement mechanisms\u2014a significant oversight in governance analysis.  \n- No reference to counterpoints: The US *is* developing binding rules (e.g., NIST\u2019s AI RMF, Biden\u2019s EO 14110), contradicting the \"voluntary standards\" characterization.  \n**Recommendation**: Verify claims against primary sources (e.g., China\u2019s white papers); distinguish binding vs. non-binding instruments in international cooperation.  \n\n#### 4) Overall Coherence  \nThe essay maintains a cohesive narrative focused on fragmentation vs. harmonization, with the innovation-safety tension serving as a unifying thread. Strengths include:  \n- Seamless integration of examples (e.g., SME compliance burdens) into broader arguments.  \n- Insightful linkage of policy frameworks to societal values in the conclusion.  \nWeaknesses:  \n- The pivot to \"overall quality varies across essays\" (para. 4) disrupts flow; this belongs in a meta-analysis, not a summary of *content*.  \n- The final sentence (\"measure of success...\") introduces a new evaluative standard (\"evolving alongside AI\") without tying back to earlier evidence.  \n**Recommendation**: Remove internal critique of \"essay quality\"; anchor conclusions strictly to evidence presented.  \n\n### Overall Assessment  \nThis is a well-structured, conceptually sound summary that identifies pivotal themes in AI governance literature. Its primary shortcomings\u2014superficial treatment of ideological conflicts, occasional factual oversights, and unwarranted generalizations\u2014prevent it from achieving scholarly rigor. While it adeptly maps the landscape, deeper engagement with *why* harmonization fails (e.g., sovereignty vs. human rights tensions) would elevate the analysis. Suitable for an upper-division undergraduate political science course but requires refinement for graduate-level work.  \n\nGrade: B+",
+        "grade": "B+",
+        "numeric_grade": 3.25,
+        "cost_info": {
+          "input_tokens": 697,
+          "output_tokens": 1564,
+          "input_cost": 0.00034849999999999996,
+          "output_cost": 0.002346,
+          "total_cost": 0.0026945,
+          "duration": 37.95534014701843
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "feedback": "### Feedback on AI Governance Essay  \n\n**1) Depth of Analysis**  \nThe essay excels in identifying nuanced regulatory tensions and ideological rifts across global AI governance frameworks. It moves beyond surface-level comparisons by dissecting *how* regional approaches operationalize core conflicts (e.g., U.S. sectoral agility vs. EU\u2019s rights-centric rigidity, China\u2019s \"data-driven policy execution\" with transparency trade-offs). The critique of \"static regulatory boundaries\" risking obsolescence and the original concept of \"algorithmic colonialism\" demonstrate sophisticated theoretical engagement. However, the analysis of economic impacts (e.g., workforce displacement) is noted as \"under-explored\" but not substantively developed\u2014a missed opportunity to link policy gaps to tangible societal consequences. Overall, the depth is strong but slightly uneven in addressing the \"psychological impact of policy uncertainty\" claim without evidence.  \n\n**2) Clarity and Structure**  \nStructure is logical and reader-friendly: thematic introduction \u2192 regional strengths \u2192 critical divergences \u2192 gap analysis \u2192 synthesized insight. Sections use signposting effectively (e.g., \"Key Divergences and Oversights\"), and bolded key terms (**tension between innovation...**) enhance focus. Transitions between regions are fluid (e.g., \"While Europe\u2019s rights-centric tier system...\"). One minor flaw: the \"Quality and Depth Evaluation\" header feels redundant with the overall prompt and slightly disrupts the essay\u2019s narrative flow. Paragraphs are concise, but the conclusion\u2019s dense terminology (\"normative conflicts, implementation challenges, and systemic vulnerabilities\") could be streamlined for greater impact.  \n\n**3) Accuracy of Facts or References**  \nFactual accuracy is consistently high. Specific claims align with established policy landscapes:  \n- EU\u2019s risk-tiered model (reflecting the AI Act\u2019s framework)  \n- U.S. \"absence of centralized framework\" (correctly noting fragmented sectoral regulation)  \n- China\u2019s \"algorithmic equity audits\" (referencing 2023 draft regulations)  \n- UK\u2019s sandbox approach (mirroring the Digital Sandbox initiative)  \nReferences to OECD/G20 forums are precise. Only minor omission: China\u2019s centralized enforcement is accurately described but lacks context on *how* \"opaque oversight\" manifests (e.g., limited judicial review of AI audits). No verifiable errors\u2014this reflects rigorous research.  \n\n**4) Overall Coherence**  \nCoherence is exceptional. The essay\u2019s central thesis\u2014that regulatory philosophies reveal \"deeper ideological rifts\"\u2014is reinforced at every stage, from regional examples to the \"critical insight\" on regulatory capture. Arguments build cumulatively: e.g., U.S. decentralization\u2019s \"jurisdictional arbitrage\" flaw foreshadows the conclusion\u2019s call for \"stronger horizontal coordination.\" Even critiques (e.g., \"emerging economies risk sandbox discrepancy\") tie back to the opening theme of \"regional fragmentation.\" The synthesis of technical granularity (EU conformity assessments) and human impacts (algorithmic bias in criminal justice) creates a holistic narrative without digression.  \n\n**Summary**: A well-researched, incisively argued essay that balances specificity with thematic breadth. Weaknesses (e.g., underdeveloped economic analysis) are outweighed by original insights and rigorous structure. Minor deductions for slight redundancy in section framing and unexplored psychological impact claims.  \n\nGrade: A+",
+        "grade": "A+",
+        "numeric_grade": 4.25,
+        "cost_info": {
+          "input_tokens": 793,
+          "output_tokens": 1268,
+          "input_cost": 0.00039650000000000004,
+          "output_cost": 0.001902,
+          "total_cost": 0.0022985,
+          "duration": 37.60820698738098
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "### Feedback on Essay: \"Integrated Summary of Global AI Policy Frameworks\"\n\n#### 1) Depth of Analysis  \nThe essay excels in analytical depth, moving beyond descriptive summaries to critically evaluate trade-offs and implementation challenges. Key strengths include:  \n- **Nuanced policy comparisons**: Highlights how the EU\u2019s \"rights-focused model\" faces bureaucratic hurdles for SMEs, the US\u2019s \"regulatory fragmentation\" fails cross-cutting risks, and China\u2019s \"opacity\" undermines ethics\u2014demonstrating understanding of *why* these trade-offs matter.  \n- **Contextual sophistication**: Identifies underdiscussed issues like the \"disproportionate burden on smaller entities\" and regulatory \"gaps\" enabling harmful AI proliferation, reflecting higher-order synthesis.  \n- **Forward-looking insight**: Concludes that regulatory success hinges on \"adaptive capacity\" rather than initial design\u2014a theoretically robust argument rare in undergraduate work.  \n*Minor improvement*: Could briefly specify *how* transnational risks (e.g., deepfakes) exploit fragmentation (e.g., jurisdictional loopholes), though constraints of word count justify concision.\n\n#### 2) Clarity and Structure  \nOutstanding organization and precision:  \n- **Logical flow**: Moves seamlessly from comparative policy analysis (para 1) to priority tensions (para 2) to meta-evaluation of frameworks (para 3). Each sentence builds on the last, avoiding tangents.  \n- **Concise language**: Achieves remarkable density without jargon (e.g., \"sector-specific approach\" instead of \"fragmented governance\"). The 398-word limit is used efficiently\u2014no filler.  \n- **Effective signposting**: Phrases like \"Significant differences emerge\" and \"Unique insights highlight\" guide the reader explicitly.  \n*Minor point*: The abrupt shift to evaluating \"the analyses\" (para 3) initially confused; specifying this refers to *scholarly literature* (not the essay itself) would enhance cohesion.\n\n#### 3) Accuracy of Facts and References  \nHighly accurate with no factual errors:  \n- Correctly characterizes the EU AI Act as \"risk-based\" with harm categorization (aligned with 2023\u201324 negotiations).  \n- Accurately notes the US lacks federal AI legislation (citing \"agency guidelines\" like NIST\u2019s AI RMF).  \n- Properly frames China\u2019s model as \"state-centric\" prioritizing security (mirroring 2023\u201324 regulations like the generative AI rules).  \n- References \"2023\u201324\" developments appropriately given the dynamic policy landscape.  \n*Validation*: All claims align with authoritative sources (e.g., EU AI Act text, OSTP AI Bill of Rights, China\u2019s CAC regulations).\n\n#### 4) Overall Coherence  \nExceptionally coherent:  \n- A unifying thesis (\"tension between fostering innovation and ensuring public safety\") anchors every example, ensuring all content serves the central argument.  \n- Contrasts (EU/US/China) and supporting evidence (UK/Singapore models, deepfake risks) directly reinforce the thesis without digression.  \n- The conclusion synthesizes insights into a novel proposition (\"no single model is universally optimal\"), fulfilling the essay\u2019s promise of \"collective insight.\"  \n\n**Overall Assessment**: This is a model of precision and intellectual maturity. It synthesizes complex policy landscapes into a cohesive, evidence-driven argument with minimal wasted words. The minor structural quibble in para 3 does not detract from the essay\u2019s scholarly rigor or persuasive power\u2014exemplary work for its scope.  \n\nGrade: A+",
+        "grade": "A+",
+        "numeric_grade": 4.25,
+        "cost_info": {
+          "input_tokens": 635,
+          "output_tokens": 1364,
+          "input_cost": 0.0003175,
+          "output_cost": 0.002046,
+          "total_cost": 0.0023635,
+          "duration": 39.332515001297
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "### Constructive Feedback  \n\n**1) Depth of Analysis**  \nThe essay demonstrates strong analytical depth by moving beyond superficial comparisons to examine *how* each regulatory model operationalizes core tensions (innovation vs. safeguards, rights vs. security). Notable strengths include:  \n- Nuanced treatment of \"public safety\" as a contested concept across regions (e.g., EU rights-centric vs. China state-security lenses).  \n- Insightful critique of trade-offs (e.g., EU compliance burdens on SMEs, U.S. fragmentation gaps, China\u2019s sacrifice of transparency for speed).  \n- Forward-looking synthesis on *practical convergence* around technical standards and foundational model risks\u2014a sophisticated observation reflecting current scholarship.  \nHowever, depth could be enhanced by:  \n- Briefly citing specific cases where regulatory gaps caused harm (e.g., real-world impacts of U.S. fragmentation on election security).  \n- Deeper engagement with *why* the UK\u2019s \"principle-based pragmatism\" differs substantively from the U.S. sectoral approach (e.g., absence of GDPR-like foundational rights).  \n\n**2) Clarity and Structure**  \nStructure is logical and efficient within the tight word count:  \n- Clear roadmap in the introduction (regional models + core tension).  \n- Thematic progression: common themes \u2192 divergent safety definitions \u2192 quality assessment \u2192 synthesis.  \n- Concise topic sentences (e.g., \"Significant differences appear in how...\") guide the reader.  \nMinor improvements:  \n- The UK is named in the introduction but receives no dedicated analysis, creating a slight structural imbalance.  \n- The conclusion\u2019s final clause (\"a challenge no single jurisdiction has yet mastered\") feels rushed; expanding it by one sentence would reinforce the thesis.  \n\n**3) Accuracy of Facts/References**  \nReferences are meticulously accurate and up-to-date:  \n- Correctly identifies the EU AI Act (2024), U.S. 2023 Executive Order, and China\u2019s deepfake watermarking requirements.  \n- Precise terminology: \"risk-based regulation,\" \"regulatory sandboxes,\" \"foundational model risks\" align with current policy discourse.  \n- No overclaims; acknowledges implementation challenges (e.g., \"outpaces regulatory foresight\").  \n*One caveat:* While China\u2019s model *does* prioritize state security, the claim it \"sacrifices... open innovation\" slightly oversimplifies\u2014China fosters *state-directed* innovation (e.g., in AI infrastructure). A subtle qualifier (e.g., \"open *collaborative* innovation\") would add precision.  \n\n**4) Overall Coherence**  \nThe essay excels in coherence:  \n- A unifying thread (innovation-safeguards tension) binds all sections.  \n- Transitions like \"Unique insights include...\" and \"A critical consensus emerges...\" create seamless flow.  \n- Every sentence advances the argument; zero filler.  \n- The conclusion powerfully reframes the thesis around *adaptive capacity* as the true metric of success\u2014elevating it beyond descriptive comparison.  \n\n**Summary**  \nThis is a sophisticated, tightly argued piece that synthesizes complex policy landscapes with precision. Its greatest strength is framing divergence (philosophical) and convergence (practical) as coexisting realities\u2014a hallmark of advanced political analysis. With minor refinements to depth (UK analysis, real-world examples) and nuance (China\u2019s innovation model), it would reach A+ territory. As written, it exemplifies top-tier undergraduate political science writing.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 674,
+          "output_tokens": 1339,
+          "input_cost": 0.000337,
+          "output_cost": 0.0020085,
+          "total_cost": 0.0023455,
+          "duration": 34.83161997795105
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "### Feedback on AI Policy Frameworks Essay  \n\n#### 1) **Depth of Analysis**  \nThe essay excels in identifying core thematic tensions (e.g., innovation vs. safety, global fragmentation) and offers nuanced comparative insights, particularly in linking policy approaches to foundational values (e.g., EU\u2019s rights-based vs. China\u2019s state-centric frameworks). However, depth is uneven:  \n- **Strengths**: Sharp analysis of regulatory gaps (e.g., \"race to the bottom\" dynamics, SME burdens) and transnational risks (deepfakes, weaponization). The critique of \"foundational values\" driving policy beyond technical considerations elevates the discussion.  \n- **Weaknesses**: As noted in the self-evaluation, environmental impacts, workforce disruption, and Global South capacities are underdeveloped. A more sophisticated treatment would explore *how* resource constraints in emerging economies create unique regulatory trade-offs (e.g., India\u2019s draft policy balancing inclusion with enforcement gaps).  \n\n#### 2) **Clarity and Structure**  \nThe structure is logically organized (themes \u2192 differences \u2192 insights \u2192 evaluation), but execution falters:  \n- **Strengths**: Clear thematic sections and effective use of bullet points enhance readability. The \"Quality Evaluation\" section adeptly synthesizes strengths/weaknesses.  \n- **Weaknesses**: Critical errors undermine professionalism:  \n  - Typos like `\"PingPong**Public Safety Focus\"` and `\"Cryptocosm**Innovation\"` suggest rushed editing or copying artifacts.  \n  - The phrase `\"oficiallack of detail\"` is grammatically nonsensical.  \n  - The abrupt shift from \"Unique Insights\" to \"Quality Evaluation\" needs transitional phrasing.  \nThese issues disrupt flow and distract from substantive insights.  \n\n#### 3) **Accuracy of Facts or References**  \nMost references are current and precise:  \n- **Accurate**: EU AI Act 2024, China\u2019s 2023 generative AI rules, U.S. Executive Order 14110 (2023), and NIST AI RMF are correctly contextualized.  \n- **Inaccurate/Problematic**:  \n  - The U.S. framework is mischaracterized as having \"enforcement gaps in bias/disinformation.\" While sectoral regulation creates *patchwork* enforcement, mechanisms like the FTC\u2019s Section 5 authority and Biden\u2019s EO *do* address bias (e.g., via NIST standards adoption). Overstating gaps ignores evolving state-level laws (e.g., California\u2019s automated-decision bill).  \n  - Claiming China\u2019s approach \"sacrifices transparency and civil liberties for stability\" is reductive; China frames its rules as promoting *social stability through transparency* (e.g., requiring AI-generated content labeling). While valid critique, phrasing lacks nuance for academic writing.  \n\n#### 4) **Overall Coherence**  \nThe core argument\u2014that AI policy reflects irreconcilable value-driven priorities hindering global alignment\u2014is compelling and sustained. However:  \n- The meta-essay format (summarizing \"multiple essays\") creates ambiguity: Is the author analyzing sources or presenting original work? This blurs the essay\u2019s scholarly purpose.  \n- Self-evaluation (\"Weaknesses: Light treatment of environmental impacts...\") is useful but feels tacked on, not integrated into the argument. For coherence, critique should be woven into the analysis (e.g., *\"While environmental costs are overlooked here, India\u2019s draft policy illustrates how emerging economies must prioritize immediate socioeconomic risks over carbon footprints\"*).  \n\n---  \n**Overall Assessment**  \nThis is a strong, well-informed analysis with high-level comparative insights, particularly in connecting policy to political philosophies. However, avoidable errors (typos, structural hiccups, minor factual overstatements) prevent it from reaching its full potential. The self-awareness in critiquing its own limitations is commendable but insufficient to offset presentation flaws. For publication in an academic context, rigorous proofreading and deeper engagement with counterarguments (e.g., U.S. enforcement *mechanisms*) would be essential.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 754,
+          "output_tokens": 1524,
+          "input_cost": 0.000377,
+          "output_cost": 0.0022860000000000003,
+          "total_cost": 0.0026630000000000004,
+          "duration": 33.89356803894043
+        }
+      }
+    },
+    "DeepSeek: R1 0528 (free)": {
+      "Google: Gemma 3n 2B (free)": {
+        "feedback": "## Constructive Feedback\n\n**1) Depth of Analysis:**\n*   **Strengths:** The analysis demonstrates a **strong foundational understanding** of core AI policy themes across major jurisdictions (EU, US, Singapore/UK/Canada). It correctly identifies key commonalities (transformative potential, risks like bias/misinformation, innovation-safety tension) and core differences in regulatory philosophies (rights-based vs. sectoral vs. agile). The recognition of inherent tensions (innovation vs. safety, uniformity vs. flexibility) is sophisticated. The conclusion aptly highlights necessary future directions (adaptation, collaboration).\n*   **Areas for Improvement:** While identifying differences, the analysis lacks **granularity and specific evidentiary support**. What *specific* examples illustrate the EU's \"stringent regulations\" or the US's \"sector-specific\" approach? How do the societal trade-offs manifest concretely? Deeper exploration linking *why* these different philosophies emerged (e.g., cultural factors, existing legal frameworks, economic priorities) would add significant depth. Probing critical questions like the effectiveness of each model in addressing emerging risks (e.g., frontier models, deepfakes) would move beyond description into deeper critique.\n\n**2) Clarity and Structure:**\n*   **Strengths:** The essay is **generally clear and logically structured**. It follows a coherent progression: introduction/common themes > contrast of implementation models > qualities/assessment > conclusion. Key points are identifiable. The language is professional and attempts objectivity.\n*   **Areas for Improvement:** Some sentences are **overly complex or vague**, impacting readability (e.g., \"The challenge lies in balancing innovation with safety...\" - while true, phrasing could be more direct). Transitions *between* the major sections-hostfirst section to second, and second to third) are abrupt and could be smoother. Phrases like \"the inherent tension between innovation and regulation\" sound slightly repetitive by the end. The third paragraph suddenly shifts focus to evaluating the *analysis itself* (\"Each essay/analysis showcases...\"), which is confusing as it reads like a separate meta-evaluation rather than continuing the policy argument seamlessly.\n\n**3) Accuracy of Facts or References:**\n*   **Strengths:** The **broad characterization** of each region's approach is **fundamentally accurate** based on observable policy trends. The EU *does* pursue a comprehensive rights-based model, the US *does* favor sectoral & lower regulation, and Singapore/UK/Canada *do* emphasize agility and collaboration.\n*   **Areas for Improvement:** The **analysis lacks specific citations, data points, or references to actual policy documents/laws** (e.g., the EU AI Act, US Executive Order on AI, Singapore's AI Verify initiative). Phrases like \"facing challenges with enforcement\" or \"lacking the global scale for robust enforcement\" are assertions that need supporting evidence to be fully credible. The description of the US approach is slightly oversimplified; while executive-driven and sectoral predominates, legislative efforts and state-level initiatives exist. Without references, it's difficult to assess precision beyond generalization.\n\n**4) Overall Coherence:**\n*   **Strengths:** The core argument \u2013 that common \u0442\u0438\u043f\u043e\u043b\u043e\u0433\u0438\u0438\u043f\u0440\u0438\u0437\u043d\u0430\u043d\u0438\u0435 AI's impact, differing philosophies focus on risk management, and adaptation/collaboration are key \u2013 is **clearly established and maintained** throughout. The Validity\u63cf\u8ff0 focuses solely on comparative policy models until the meta-commentary in paragraph 3. The conclusion logically synthesizes the preceding points.\n*   **Areas for Improvement:** The **inclusion of the third paragraph critically disrupts coherence**. The first two paragraphs discuss AI policy substantively. The third paragraph abruptly shifts to describing the *quality* of the analysis itself (\"depth demonstrates sophisticated understanding,\" \"each essay showcases nuanced understanding,\" \"effective identification,\" \"provides a comprehensive overview\"). This feels out of place, disconnected from the policy argument, and potentially self-referential or misdirected if this essay is the analysis being graded. Removing this paragraph or reworking its points into the conclusion would significantly improve overall coherence.\n\n**Summary:** This is a strong, conceptually sound analysis demonstrating a good grasp of global AI policy landscapes and core comparative advantages/challenges. It excels at identifying high-level themes and differentiating core regulatory philosophies. To reach the highest level, it needs: (1) deeper exploration of underlying *reasons* for differences and specific policy examples, (2) smoother transitions and tighter phrasing in places, (3) inclusion of concrete references or evidence to support assertions, and (4) resolution of the disruptive incoherence caused by the self-evaluative third paragraph.\n\n---\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 446,
+          "output_tokens": 1384,
+          "input_cost": 0.000223,
+          "output_cost": 0.0020759999999999997,
+          "total_cost": 0.002299,
+          "duration": 116.11160802841187
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "feedback": "Your essay demonstrates a strong grasp of AI governance frameworks across major players. Here's the breakdown:\n\n1.  **Depth of Analysis:** Good. You effectively compare core governance models (EU/US/China/UK+), highlighting their distinct philosophical underpinnings (rights vs. innovation vs. stability vs. pragmatism) and identifying key tensions (innovation vs. regulation, rights/democracy vs. social order). You acknowledge critiques (EU stifling innovation, US fragmentation, China's ethics) and cross-border challenges. However, briefly mentioning *why* China prioritizes social order explicitly (e.g., CCP legitimacy, history) or exploring the *historical/cultural context* driving differing priorities could add nuance. The point on developing nations needing more emphasis is valid.\n\n2.  **Clarity and Structure:** Excellent. The essay is logically organized:\n    *   Introduction identifies the core tension.\n    *   Body paragraphs clearly compare distinct approaches region-by-region, detailing mechanisms, strengths, and weaknesses.\n    *   Paragraph tying together the innovation-regulation divergence and differing safety scopes effectively synthesizes comparisons.\n    *   Conclusion summarizes strengths/weaknesses and underscores the need for international collaboration.\n    *   Sentences are generally clear and concise. Bolded key terms (**AI Act (2024)**, **strength/weakness**, **scope of public safety concerns**) are effective. Occasional phrases like \"democratic values\" could be marginally more precise but are understandable.\n\n3.  **Accuracy of Facts/References:** Very Good. Core facts align with established knowledge:\n    *   EU AI Act's risk-based approach, bans, focus on rights/public trust timing/function/procritiques.\n    *   US sectoral model (FDA/FTC involvement), lack of federal law, strengths/weaknesses.\n    *   China's state control, focus on self-sufficiency/security/misinfo/surveillance, ethical critiques.\n    *   UK principle-based/pragmatic approach.\n    *   Cross-border coordination challenges and AI's rapid evolution are correctly identified.\n    *   No obvious factual errors detected. References are correctly characterized.\n\n4.  **Overall Coherence:** Excellent. The essay maintains a clear central thesis (diverse AI governance\u904e\u7a0b due to differing national priorities navigating the innovation-safety tension Sydneysydney\u306a) throughout. Comparisons are logically structured, transitions between regions and concepts are smooth, and the conclusion synthesizes the key points cohesively. The analysis consistently serves the core argument.\n\n### Minor Suggestions for Improvement\n*   **Slightly Deeper Context:** Briefly contextualize China's priorities beyond \"state control\" (e.g., linking to CCP legitimacy, historical perspectives on societal stability).\n*   **Sharper Nuance on Developing World:** While noted, a sentence explicitly stating *how* resource constraints hinder their adoption of complex standards like the EU's would strengthen that point.\n*   **Clarify \"Democratic Values\":** Consider briefly specifying examples relevant to AI governance (e.g., privacy rights, freedom of speech, non-discrimination).\n\n**Grade: A-**",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 674,
+          "output_tokens": 946,
+          "input_cost": 0.000337,
+          "output_cost": 0.001419,
+          "total_cost": 0.001756,
+          "duration": 97.26063179969788
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "feedback": "Here is the professional evaluation of the provided essay:\n\n## Constructive Feedback\n\n1.  **Depth of Analysis:** The analysis is **strong**. It successfully moves beyond simple description of the EU, US, and Chinese approaches to identify the core tension (innovation vs. safety) and common themes (bias, deepfakes, facial recognition, keeping pace). Crucially, it highlights insightful differences in prioritization (rights, flexibility, control) and unique structural insights (agile/collaborative models lacking enforcement, implementation challenges universally, SME burden, regulatory gaps, global coordination deficit). The concluding point about adaptive capacity being the key measure of success demonstrates sophisticated understanding.\n\n2.  **Clarity and Structure:** The structure is **logical and clear**. It establishes commonalities first (\"consistent tension,\" \"common themes\"), then delves into significant differences (\"Significant differences emerge\"), before culminating in unique insights and a coherent conclusion. Paragraph organization is sound. The prose is generally concise and academic. The conclusion effectively summarizes the core argument (\"no single model...\", \"most promising path\"). One minor suggestion: Phrases comparing models (\"While the EU... US... China...\") could occasionally be streamlined for even greater flow.\n\n3.  **Accuracy of Facts or References:** The facts presented appear **highly accurate** based on current mainstream scholarship and observable policy developments. Characterizations of the EU AI Act (risk-based, rights-focused), US approach (sectoral, fragmented), and Chinese model (state-centric, security/stability focus) are correct and widely recognized. Mentioning SMEs, decentralized US approaches, Chinese opacity, UK/Singapore's agile/principles-based models, and transnational risks aligns with known realities of the policy landscape. The reference to analyses covering \"recent regulations (2023-24)\" grounds the essay well.\n\n4.  **Overall Coherence:** The essay is **highly coherent**. The central pertain of navigating governance amidst rapid technological change binds every section together. Every point made (common themes, differing approaches, implementation challenges, coordination gaps) contributes seamlessly to the overarching conclusion that diverse models offer lessons, core safety principles need global consensus, and adaptivity is paramount. Terminology (e.g., \"regulatory fragmentation,\" \"disproportionate burden,\" \"adaptive capacity\") is used consistently. Transitions between ideas (e.g., \"Significant differences emerge,\" \"Unique insights highlight\") effectively guide the reader.\n\n## Summary\nThis is an excellent summary demonstrating a sophisticated understanding of global AI governance. It effectively synthesizes complex policy approaches, identifies key tensions and commonalities, highlights crucial differences in prioritization and structure, and offers valuable unique insights into implementation and coordination challenges. The arguments are logically structured, clearly presented, factually sound, and form a highly coherent whole culminating in a nuanced and insightful conclusion. Minor stylistic refinements are possible, but the intellectual substance is outstanding for the scope of this piece.\n\nGrade: A",
+        "grade": "A",
+        "numeric_grade": 4.0,
+        "cost_info": {
+          "input_tokens": 621,
+          "output_tokens": 983,
+          "input_cost": 0.0003105,
+          "output_cost": 0.0014745000000000001,
+          "total_cost": 0.0017850000000000001,
+          "duration": 136.9495940208435
+        }
+      },
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "feedback": "### Feedback  \n\n#### 1) **Depth of Analysis**  \nThe essay demonstrates **strong analytical depth** by systematically categorizing global AI policies into distinct frameworks (EU, U.S., China, Canada/UK/Singapore) and identifying their strategic priorities, strengths, and limitations. It astutely contextualizes policy tensions (innovation vs. control) andnealysiscommonalities (rights protection, fragmentation risks). Critically, it evaluates trade-offs (e.g., legal certainty vs. innovation burden in the EU) and emphasizes the need for hybrid governance. However, deeper interrogation of *why* these differences exist (e.g., geopolitical values, institutional histories) could enrich the analysis further.  \n\n#### 2) **Clarity and Structure**  \n**Highly effective structure and clarity.** The division into \"Common Themes\" and \"Key Differences\" provides intuitive organization. Paragraphs are tightly focused, with clear topic sentences and concise examples (e.g., specific regulatory tools like \"AI Verify\" or \"safety-case reporting\"). Transitions between sections are logical, culminating in a cohesive synthesis. Minor improvements: Define \"SMEs\" first use (Small and Medium Enterprises), and refine the phrase \"under-leveraged against high-impact harms\" for smoother readability.  \n\n#### 3) **Accuracy of Facts or References**  \n**Accurate and well-supported.** Claims align with major policy developments:  \n- EU AI Act\u2019s risk tiers/bans,  \n- U.S. reliance on NIST/FTC and absence of federal law,  \n- China\u2019s state-centric model and privacy concerns,  \n- Sandbox approaches (Singapore, UK).  \nNo factual errors detected. References to emerging threats (foundation-model manipulation) and tools (ethical impact assessments) are contextually appropriate.  \n\n#### 4) **Overall Coherence**  \n**Exceptionally coherent.** The essay constructs a unified narrative: global divergence \u2192 shared challenges \u2192 jurisdictional strengths/weaknesses \u2192 necessity for hybrid governance. Themes introduced early (fragmentation, iterative regulation) resurface in later evaluations. The conclusion elegantly synthesizes complementary strengths while underscoring unresolved vulnerabilities (\"structural weaknesses\").  \n\n### Evaluation  \nThis essay exhibits graduate-level sophistication in comparative policy analysis. It synthesizes complex regulatory landscapes into a digestible framework, balances theoretical tensions with concrete examples, and delivers incisive critiques. Minor opportunities exist to deepen root-cause analysis of policy divergence and optimize phrasing.  \n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 874,
+          "output_tokens": 859,
+          "input_cost": 0.000437,
+          "output_cost": 0.0012885,
+          "total_cost": 0.0017255,
+          "duration": 152.31826090812683
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "feedback": "### Constructive Feedback  \n\n1. **Depth of Analysis**:  \n   Excellent comparative framework highlighting ideological/value-driven foundations \u043f\u043e\u0442\u0435\u0440\u044f\u043d (EU rights vs. China stability). Nuanced on trade-offs (innovation vs. safety, SME burdens), but lacks depth in underdiscussed areas:  \n   - Environmental costs (e.g., AI's energy footprint).  \n   - Concrete solutions for workforce displacement.  \n   - Detailed exploration of AI weapons governance gaps.  \n\n2. **Clarity and Structure**:  \n   Logically organized with clear thematic sections. However:  \n   - Transition phrases between regions are abrupt (e.g., US-to-China).  \n   - Typos (\"PingPong**Public Safety\", \"oficiallack\") disrupt flow.  \n   - Bullet points enhance readability but occasionally sacrifice narrative cohesion.  \n\n3. **Accuracy of Facts/Referencesneys**:  \n   All major references are precise (EU AI Act 2024, U.S. EO 2023, NIST R \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u043cM\u043c\u044bF). Claims align with mainstream scholarship:  \n   - Correctly frames China\u2019s state-aligned efficiency vs. EU\u2019s rights focus.  \n   - Valid critique of US enforcement gaps.  \n   **No factual errors detected.**\n\n4. **Overall Coherence**:  \n   Core argument (\"tension between guardrails and strategic advantage\") unifies the analysis. Regional comparisons reinforce this consistently. Weaknesses:  \n   - Incomplete sections (e.g., Global South) feel abrupt.  \n   - Conclusion lacks synthesis of \"unique insights\" with policy recommendations.  \n\n---\n\n**Grade: A-**  \n\n**Rationale**:  \nThe essay demonstrates sophisticated understanding of global AI governance, with strengths in comparative analysis, factual accuracy, and thematic cohesion. It earns high marks for identifying value-based policy divergence and innovation-regulation dilemmas. The A- reflects minor deductions for superficial treatment of environmental/workforce impacts, editorial errors, and underdeveloped Global South analysis. Overall, it exceeds expectations but falls short of exemplary (A/A+) due to these omissions.",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 733,
+          "output_tokens": 876,
+          "input_cost": 0.0003665,
+          "output_cost": 0.001314,
+          "total_cost": 0.0016805000000000001,
+          "duration": 179.7470862865448
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "feedback": "Here is my expert evaluation of the essay \"Global AI Governance: Balancing Innovation and Safeguards\":\n\n**1. Depth of Analysis:**  \nThe essay demonstrates **strong depth** by going beyond surface-level descriptions. It identifies the core tension (innovation vs. safeguards), effectively contrasts distinct regional models (EU, US, China, UK), analyzes common themes and differences (e.g., defining \"public safety\"), and highlights key nuances like trade-offs and implementation challenges. References to specific mechanisms (regulatory sandboxes, algorithmic auditing) and concrete examples (EU's social scoring ban, Chinese watermarking) strengthen the analysis. Crucially, it presents a synthesized critical consensus on hybridization and adaptive governance. While deeper exploration of underlying philosophical roots (e.g., liberalism vs. statism) could add another layer, the existing analysis is substantive and insightful.\n\n**2. Clarity and Structure:**  \nThe essay is **largely clear and well-structured**. The thesis is established immediately. It logically progresses through regional models, common themes, significant differences, strengths/weaknesses of analyses, and a synthesized conclusion. Sentence structure is generally precise. Some minor improvements could be made: explicitly defining \"SMEs\" on first use and slightly smoother transitions between paragraphs discussing key themes, differences, and quality critiques. Overall, organization supports comprehension effectively.\n\n**3. Accuracy of Facts or References:**  \n**Factual accuracy is excellent**. Key details are correct:\n*   The EU AI Act is accurately characterized as risk-based (2024 enactment is correct for core provisions).\n*   The US sectoral approach centered on the 2023 EO and NIST framework is valid.\n*   China's emphasis on state control and watermarking requirements for deepfakes reflects documented policies.\n*   References to specific prohibitions (social scoring), policy documents, and implementation challenges align with established knowledge. No discernible factual errors.\n\n**4. Overall Coherence:**  \nThe essay is **highly coherent**. The central theme of balancing innovation/safeguards weaves throughout. Each paragraph builds upon the previous one, logically developing the comparison from description to critique to synthesis. Concepts introduced early (risk-classification, fragmented oversight) inform later discussions (trade-offs, need for hybrids). The conclusion effectively draws together threads about adaptation, trust, and emergent risks, reinforcing the thesis and providing a clear concluding assessment.\n\n**Summary Feedback:**  \nThis essay excels in concise, insightful comparative analysis of a complex global policy issue. It synthesizes diverse regional approaches effectively, supported by accurate details and nuanced discussions of trade-offs and implementation realities. While the structure is sound, minor enhancements to transitions and jargon clarification could elevate it further. The argument is sophisticated and coherently developed, culminating in a logical and forward-looking conclusion. It successfully communicates complex ideas succinctly and accurately.\n\n**Grade Assignment:**  \nBased on academic standards for Political Science writing at the advanced undergraduate/graduate level:\n*   **Strengths:** Exceptional synthesis, strong comparative focus, high factual accuracy, coherent argumentation, sophisticated policy insights.\n*   **Weaknesses:** Superficial treatment of institutional/historical roots, minor structural quibbles vs. major flaws.\nThis represents excellent work exceeding basic requirements (B range), approaching the highest standards but stopping just short due to room for deeper contextualization/sublime structure/fluidity (A/A+).\n\nGrade: A-",
+        "grade": "A-",
+        "numeric_grade": 3.75,
+        "cost_info": {
+          "input_tokens": 658,
+          "output_tokens": 1154,
+          "input_cost": 0.00032900000000000003,
+          "output_cost": 0.001731,
+          "total_cost": 0.0020599999999999998,
+          "duration": 220.5296061038971
+        }
+      }
+    }
+  },
+  "summary": {
+    "Google: Gemma 3n 2B (free)": {
+      "median_numeric": "B+",
+      "grades_received": [
+        "B+",
+        "B+",
+        "B-",
+        "C-",
+        "A-",
+        "B-",
+        "B+",
+        "A-"
+      ]
+    },
+    "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+      "median_numeric": "A-",
+      "grades_received": [
+        "B+",
+        "A+",
+        "A-",
+        "A-",
+        "A",
+        "A-",
+        "A-",
+        "A-"
+      ]
+    },
+    "Qwen: Qwen3 VL 30B A3B Thinking": {
+      "median_numeric": "B+",
+      "grades_received": [
+        "B+",
+        "A-",
+        "A",
+        "B+",
+        "B+",
+        "A-",
+        "B+"
+      ]
+    },
+    "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+      "median_numeric": "A-",
+      "grades_received": [
+        "C+",
+        "A-",
+        "A-",
+        "A-",
+        "A",
+        "A-",
+        "A+"
+      ]
+    },
+    "Qwen: Qwen3 VL 235B A22B Thinking": {
+      "median_numeric": "A-",
+      "grades_received": [
+        "C+",
+        "A-",
+        "B+",
+        "A-",
+        "A-",
+        "A+",
+        "A"
+      ]
+    },
+    "NVIDIA: Nemotron Nano 9B V2 (free)": {
+      "median_numeric": "B+",
+      "grades_received": [
+        "C+",
+        "B+",
+        "B+",
+        "A-",
+        "B+",
+        "B+",
+        "A-"
+      ]
+    },
+    "Qwen: Qwen3 235B A22B Thinking 2507": {
+      "median_numeric": "A-",
+      "grades_received": [
+        "B+",
+        "A-",
+        "A-",
+        "A-",
+        "A-",
+        "A-",
+        "A-"
+      ]
+    },
+    "DeepSeek: R1 0528 (free)": {
+      "median_numeric": "A-",
+      "grades_received": [
+        "B+",
+        "A",
+        "A-",
+        "A-",
+        "B+",
+        "A-",
+        "A-"
+      ]
+    }
+  },
+  "bias_analysis": {
+    "overall_median": "A-",
+    "overall_mean": "A-/B+",
+    "grader_bias": {
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.25,
+        "letter_bias": "Neutral",
+        "count": 8
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.0,
+        "letter_bias": "Neutral",
+        "count": 8
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "median_given": "B+",
+        "median_bias": -0.5,
+        "mean_bias": -0.625,
+        "letter_bias": "Strict (-1 grade)",
+        "count": 8
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.25,
+        "letter_bias": "Neutral",
+        "count": 8
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "median_given": "A-/B+",
+        "median_bias": -0.25,
+        "mean_bias": -0.25,
+        "letter_bias": "Slightly Strict (-1/3 grade)",
+        "count": 8
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.25,
+        "letter_bias": "Neutral",
+        "count": 8
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.0,
+        "letter_bias": "Neutral",
+        "count": 4
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "median_given": "A-",
+        "median_bias": 0.0,
+        "mean_bias": 0.25,
+        "letter_bias": "Neutral",
+        "count": 6
+      }
+    }
+  },
+  "boswell_quotient": {
+    "model_scores": {
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "boswell_quotient": 96.2,
+        "components": {
+          "performance": 94.11764705882352,
+          "evaluation": 100.0,
+          "efficiency": 95.6064953659398
+        },
+        "rank": 2
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "boswell_quotient": 92.7,
+        "components": {
+          "performance": 88.23529411764706,
+          "evaluation": 100.0,
+          "efficiency": 93.10395013386398
+        },
+        "rank": 3
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "boswell_quotient": 77.3,
+        "components": {
+          "performance": 88.23529411764706,
+          "evaluation": 50.0,
+          "efficiency": 91.13195995845112
+        },
+        "rank": 11
+      },
+      "Google: Gemma 3 4B (free)": {
+        "boswell_quotient": 87.6,
+        "components": {
+          "efficiency": 87.56677156744786
+        },
+        "rank": 6
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "boswell_quotient": 92.7,
+        "components": {
+          "performance": 94.11764705882352,
+          "evaluation": 100.0,
+          "efficiency": 78.37001028009153
+        },
+        "rank": 4
+      },
+      "Google: Gemma 3n 4B (free)": {
+        "boswell_quotient": 85.6,
+        "components": {
+          "efficiency": 85.5615312282391
+        },
+        "rank": 7
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "boswell_quotient": 85.3,
+        "components": {
+          "performance": 94.11764705882352,
+          "evaluation": 75.0,
+          "efficiency": 78.82510204829703
+        },
+        "rank": 8
+      },
+      "Google: Gemma 3 27B (free)": {
+        "boswell_quotient": 84.4,
+        "components": {
+          "efficiency": 84.35342953533237
+        },
+        "rank": 9
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "boswell_quotient": 92.0,
+        "components": {
+          "performance": 94.11764705882352,
+          "evaluation": 100.0,
+          "efficiency": 74.47488833836732
+        },
+        "rank": 5
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "boswell_quotient": 79.7,
+        "components": {
+          "performance": 88.23529411764706,
+          "evaluation": 100.0,
+          "efficiency": 28.006250579912262
+        },
+        "rank": 10
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "boswell_quotient": 96.3,
+        "components": {
+          "performance": 94.11764705882352,
+          "evaluation": 100.0
+        },
+        "rank": 1
+      }
+    },
+    "component_weights": {
+      "performance": 0.5,
+      "evaluation": 0.3,
+      "efficiency": 0.2
+    }
+  },
+  "cost": {
+    "total_cost": 0.19353800000000002,
+    "total_tokens": 218010,
+    "total_duration": 2403.8805828094482,
+    "essay_costs": {
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "input_tokens": 115,
+        "output_tokens": 2153,
+        "input_cost": 5.75e-05,
+        "output_cost": 0.0032295,
+        "total_cost": 0.003287,
+        "duration": 8.747100830078125
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "input_tokens": 108,
+        "output_tokens": 1859,
+        "input_cost": 5.4e-05,
+        "output_cost": 0.0027885,
+        "total_cost": 0.0028425,
+        "duration": 14.08104395866394
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "input_tokens": 105,
+        "output_tokens": 1042,
+        "input_cost": 5.25e-05,
+        "output_cost": 0.0015630000000000002,
+        "total_cost": 0.0016155000000000002,
+        "duration": 23.207944869995117
+      },
+      "Google: Gemma 3 4B (free)": {
+        "input_tokens": 105,
+        "output_tokens": 0,
+        "input_cost": 5.25e-05,
+        "output_cost": 0.0,
+        "total_cost": 5.25e-05,
+        "duration": 25.19699501991272
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "input_tokens": 109,
+        "output_tokens": 2092,
+        "input_cost": 5.45e-05,
+        "output_cost": 0.003138,
+        "total_cost": 0.0031925,
+        "duration": 25.68763017654419
+      },
+      "Google: Gemma 3n 4B (free)": {
+        "input_tokens": 105,
+        "output_tokens": 1157,
+        "input_cost": 5.25e-05,
+        "output_cost": 0.0017355,
+        "total_cost": 0.001788,
+        "duration": 29.260836839675903
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "input_tokens": 108,
+        "output_tokens": 1795,
+        "input_cost": 5.4e-05,
+        "output_cost": 0.0026925,
+        "total_cost": 0.0027465,
+        "duration": 31.64681386947632
+      },
+      "Google: Gemma 3 27B (free)": {
+        "input_tokens": 105,
+        "output_tokens": 0,
+        "input_cost": 5.25e-05,
+        "output_cost": 0.0,
+        "total_cost": 5.25e-05,
+        "duration": 27.190955877304077
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "input_tokens": 106,
+        "output_tokens": 1726,
+        "input_cost": 5.3e-05,
+        "output_cost": 0.002589,
+        "total_cost": 0.0026420000000000003,
+        "duration": 57.75300621986389
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "input_tokens": 111,
+        "output_tokens": 1947,
+        "input_cost": 5.55e-05,
+        "output_cost": 0.0029205000000000004,
+        "total_cost": 0.0029760000000000003,
+        "duration": 41.598658084869385
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "input_tokens": 100,
+        "output_tokens": 1659,
+        "input_cost": 5e-05,
+        "output_cost": 0.0024885000000000003,
+        "total_cost": 0.0025385000000000004,
+        "duration": 202.66189169883728
+      }
+    },
+    "integration_costs": [],
+    "grading_costs": {
+      "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 921,
+          "output_tokens": 202,
+          "input_cost": 0.0004605,
+          "output_cost": 0.00030300000000000005,
+          "total_cost": 0.0007635000000000001,
+          "duration": 3.360197067260742
+        },
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 467,
+          "output_tokens": 698,
+          "input_cost": 0.0002335,
+          "output_cost": 0.001047,
+          "total_cost": 0.0012805,
+          "duration": 3.6090869903564453
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 716,
+          "output_tokens": 856,
+          "input_cost": 0.000358,
+          "output_cost": 0.001284,
+          "total_cost": 0.001642,
+          "duration": 6.510744094848633
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 825,
+          "output_tokens": 1101,
+          "input_cost": 0.0004125,
+          "output_cost": 0.0016515,
+          "total_cost": 0.002064,
+          "duration": 10.972279787063599
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 653,
+          "output_tokens": 889,
+          "input_cost": 0.0003265,
+          "output_cost": 0.0013335,
+          "total_cost": 0.00166,
+          "duration": 6.544438123703003
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 798,
+          "output_tokens": 775,
+          "input_cost": 0.00039900000000000005,
+          "output_cost": 0.0011625000000000001,
+          "total_cost": 0.0015615000000000002,
+          "duration": 5.47172212600708
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 694,
+          "output_tokens": 1219,
+          "input_cost": 0.000347,
+          "output_cost": 0.0018285000000000003,
+          "total_cost": 0.0021755000000000004,
+          "duration": 7.649556875228882
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 703,
+          "output_tokens": 1626,
+          "input_cost": 0.0003515,
+          "output_cost": 0.0024389999999999998,
+          "total_cost": 0.0027904999999999996,
+          "duration": 9.69637393951416
+        }
+      },
+      "Google: Gemma 3n 2B (free)": {
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 802,
+          "output_tokens": 447,
+          "input_cost": 0.00040100000000000004,
+          "output_cost": 0.0006705,
+          "total_cost": 0.0010715,
+          "duration": 8.087178707122803
+        },
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 457,
+          "output_tokens": 427,
+          "input_cost": 0.00022850000000000002,
+          "output_cost": 0.0006405,
+          "total_cost": 0.000869,
+          "duration": 8.453828811645508
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 688,
+          "output_tokens": 452,
+          "input_cost": 0.00034399999999999996,
+          "output_cost": 0.000678,
+          "total_cost": 0.001022,
+          "duration": 9.151567935943604
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 768,
+          "output_tokens": 506,
+          "input_cost": 0.000384,
+          "output_cost": 0.000759,
+          "total_cost": 0.001143,
+          "duration": 9.50518798828125
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 685,
+          "output_tokens": 532,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.0007980000000000001,
+          "total_cost": 0.0011405,
+          "duration": 9.7220139503479
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 878,
+          "output_tokens": 485,
+          "input_cost": 0.000439,
+          "output_cost": 0.0007275,
+          "total_cost": 0.0011665,
+          "duration": 9.810138940811157
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 641,
+          "output_tokens": 504,
+          "input_cost": 0.00032050000000000004,
+          "output_cost": 0.000756,
+          "total_cost": 0.0010765000000000002,
+          "duration": 10.15460205078125
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 715,
+          "output_tokens": 538,
+          "input_cost": 0.0003575,
+          "output_cost": 0.0008070000000000001,
+          "total_cost": 0.0011645000000000002,
+          "duration": 10.761994123458862
+        }
+      },
+      "NVIDIA: Nemotron Nano 9B V2 (free)": {
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 712,
+          "output_tokens": 551,
+          "input_cost": 0.000356,
+          "output_cost": 0.0008265000000000001,
+          "total_cost": 0.0011825,
+          "duration": 13.777249813079834
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 917,
+          "output_tokens": 701,
+          "input_cost": 0.00045850000000000003,
+          "output_cost": 0.0010515,
+          "total_cost": 0.00151,
+          "duration": 21.212170124053955
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 821,
+          "output_tokens": 566,
+          "input_cost": 0.0004105,
+          "output_cost": 0.0008489999999999999,
+          "total_cost": 0.0012595,
+          "duration": 22.74333691596985
+        },
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 463,
+          "output_tokens": 1281,
+          "input_cost": 0.00023150000000000002,
+          "output_cost": 0.0019214999999999998,
+          "total_cost": 0.002153,
+          "duration": 38.446393966674805
+        }
+      },
+      "Qwen: Qwen3 VL 235B A22B Thinking": {
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 685,
+          "output_tokens": 1111,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.0016665,
+          "total_cost": 0.002009,
+          "duration": 22.76618504524231
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 637,
+          "output_tokens": 1291,
+          "input_cost": 0.0003185,
+          "output_cost": 0.0019364999999999999,
+          "total_cost": 0.002255,
+          "duration": 24.932005167007446
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 795,
+          "output_tokens": 1340,
+          "input_cost": 0.0003975,
+          "output_cost": 0.00201,
+          "total_cost": 0.0024075,
+          "duration": 25.66704225540161
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 884,
+          "output_tokens": 1141,
+          "input_cost": 0.000442,
+          "output_cost": 0.0017115000000000001,
+          "total_cost": 0.0021535,
+          "duration": 41.383914947509766
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 756,
+          "output_tokens": 1541,
+          "input_cost": 0.000378,
+          "output_cost": 0.0023114999999999998,
+          "total_cost": 0.0026894999999999996,
+          "duration": 29.56206202507019
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 676,
+          "output_tokens": 1167,
+          "input_cost": 0.00033800000000000003,
+          "output_cost": 0.0017505,
+          "total_cost": 0.0020885,
+          "duration": 42.812880754470825
+        },
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 456,
+          "output_tokens": 2959,
+          "input_cost": 0.000228,
+          "output_cost": 0.004438500000000001,
+          "total_cost": 0.0046665000000000005,
+          "duration": 58.402331829071045
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 699,
+          "output_tokens": 1130,
+          "input_cost": 0.0003495,
+          "output_cost": 0.001695,
+          "total_cost": 0.0020445,
+          "duration": 76.31096196174622
+        }
+      },
+      "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 459,
+          "output_tokens": 816,
+          "input_cost": 0.00022950000000000002,
+          "output_cost": 0.001224,
+          "total_cost": 0.0014535000000000001,
+          "duration": 10.546142816543579
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 712,
+          "output_tokens": 907,
+          "input_cost": 0.000356,
+          "output_cost": 0.0013605000000000002,
+          "total_cost": 0.0017165000000000001,
+          "duration": 11.574240922927856
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 898,
+          "output_tokens": 1116,
+          "input_cost": 0.000449,
+          "output_cost": 0.0016740000000000001,
+          "total_cost": 0.0021230000000000003,
+          "duration": 13.471944093704224
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 807,
+          "output_tokens": 909,
+          "input_cost": 0.00040350000000000005,
+          "output_cost": 0.0013635000000000001,
+          "total_cost": 0.0017670000000000001,
+          "duration": 10.903410196304321
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 701,
+          "output_tokens": 838,
+          "input_cost": 0.0003505,
+          "output_cost": 0.0012569999999999999,
+          "total_cost": 0.0016075,
+          "duration": 10.059935092926025
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 690,
+          "output_tokens": 1184,
+          "input_cost": 0.000345,
+          "output_cost": 0.001776,
+          "total_cost": 0.002121,
+          "duration": 13.841195106506348
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 761,
+          "output_tokens": 1165,
+          "input_cost": 0.00038050000000000003,
+          "output_cost": 0.0017475000000000001,
+          "total_cost": 0.002128,
+          "duration": 13.67890191078186
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 649,
+          "output_tokens": 1684,
+          "input_cost": 0.00032450000000000003,
+          "output_cost": 0.002526,
+          "total_cost": 0.0028505,
+          "duration": 28.49562382698059
+        }
+      },
+      "Qwen: Qwen3 VL 30B A3B Thinking": {
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 456,
+          "output_tokens": 1027,
+          "input_cost": 0.000228,
+          "output_cost": 0.0015405,
+          "total_cost": 0.0017685,
+          "duration": 9.804211139678955
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 884,
+          "output_tokens": 1124,
+          "input_cost": 0.000442,
+          "output_cost": 0.0016860000000000002,
+          "total_cost": 0.002128,
+          "duration": 11.51177191734314
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 699,
+          "output_tokens": 1076,
+          "input_cost": 0.0003495,
+          "output_cost": 0.0016140000000000002,
+          "total_cost": 0.0019635,
+          "duration": 10.8246009349823
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 685,
+          "output_tokens": 916,
+          "input_cost": 0.00034250000000000003,
+          "output_cost": 0.001374,
+          "total_cost": 0.0017165000000000001,
+          "duration": 8.075300216674805
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 795,
+          "output_tokens": 1176,
+          "input_cost": 0.0003975,
+          "output_cost": 0.001764,
+          "total_cost": 0.0021615,
+          "duration": 10.247620105743408
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 637,
+          "output_tokens": 1239,
+          "input_cost": 0.0003185,
+          "output_cost": 0.0018585000000000001,
+          "total_cost": 0.002177,
+          "duration": 11.277842998504639
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 676,
+          "output_tokens": 1304,
+          "input_cost": 0.00033800000000000003,
+          "output_cost": 0.0019560000000000003,
+          "total_cost": 0.0022940000000000005,
+          "duration": 11.617678165435791
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 756,
+          "output_tokens": 1046,
+          "input_cost": 0.000378,
+          "output_cost": 0.001569,
+          "total_cost": 0.0019470000000000002,
+          "duration": 9.021416902542114
+        }
+      },
+      "Qwen: Qwen3 235B A22B Thinking 2507": {
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 454,
+          "output_tokens": 1294,
+          "input_cost": 0.00022700000000000002,
+          "output_cost": 0.001941,
+          "total_cost": 0.0021680000000000002,
+          "duration": 29.530382871627808
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 882,
+          "output_tokens": 1174,
+          "input_cost": 0.000441,
+          "output_cost": 0.001761,
+          "total_cost": 0.002202,
+          "duration": 28.26430630683899
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 683,
+          "output_tokens": 1220,
+          "input_cost": 0.0003415,
+          "output_cost": 0.00183,
+          "total_cost": 0.0021715,
+          "duration": 30.08569622039795
+        },
+        "Qwen: Qwen3 VL 30B A3B Thinking": {
+          "input_tokens": 697,
+          "output_tokens": 1564,
+          "input_cost": 0.00034849999999999996,
+          "output_cost": 0.002346,
+          "total_cost": 0.0026945,
+          "duration": 37.95534014701843
+        },
+        "NVIDIA: Nemotron Nano 12B 2 VL (free)": {
+          "input_tokens": 793,
+          "output_tokens": 1268,
+          "input_cost": 0.00039650000000000004,
+          "output_cost": 0.001902,
+          "total_cost": 0.0022985,
+          "duration": 37.60820698738098
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 635,
+          "output_tokens": 1364,
+          "input_cost": 0.0003175,
+          "output_cost": 0.002046,
+          "total_cost": 0.0023635,
+          "duration": 39.332515001297
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 674,
+          "output_tokens": 1339,
+          "input_cost": 0.000337,
+          "output_cost": 0.0020085,
+          "total_cost": 0.0023455,
+          "duration": 34.83161997795105
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 754,
+          "output_tokens": 1524,
+          "input_cost": 0.000377,
+          "output_cost": 0.0022860000000000003,
+          "total_cost": 0.0026630000000000004,
+          "duration": 33.89356803894043
+        }
+      },
+      "DeepSeek: R1 0528 (free)": {
+        "Google: Gemma 3n 2B (free)": {
+          "input_tokens": 446,
+          "output_tokens": 1384,
+          "input_cost": 0.000223,
+          "output_cost": 0.0020759999999999997,
+          "total_cost": 0.002299,
+          "duration": 116.11160802841187
+        },
+        "NVIDIA: Nemotron Nano 9B V2 (free)": {
+          "input_tokens": 674,
+          "output_tokens": 946,
+          "input_cost": 0.000337,
+          "output_cost": 0.001419,
+          "total_cost": 0.001756,
+          "duration": 97.26063179969788
+        },
+        "Qwen: Qwen3 VL 235B A22B Thinking": {
+          "input_tokens": 621,
+          "output_tokens": 983,
+          "input_cost": 0.0003105,
+          "output_cost": 0.0014745000000000001,
+          "total_cost": 0.0017850000000000001,
+          "duration": 136.9495940208435
+        },
+        "NVIDIA: Nemotron 3 Nano 30B A3B (free)": {
+          "input_tokens": 874,
+          "output_tokens": 859,
+          "input_cost": 0.000437,
+          "output_cost": 0.0012885,
+          "total_cost": 0.0017255,
+          "duration": 152.31826090812683
+        },
+        "DeepSeek: R1 0528 (free)": {
+          "input_tokens": 733,
+          "output_tokens": 876,
+          "input_cost": 0.0003665,
+          "output_cost": 0.001314,
+          "total_cost": 0.0016805000000000001,
+          "duration": 179.7470862865448
+        },
+        "Qwen: Qwen3 235B A22B Thinking 2507": {
+          "input_tokens": 658,
+          "output_tokens": 1154,
+          "input_cost": 0.00032900000000000003,
+          "output_cost": 0.001731,
+          "total_cost": 0.0020599999999999998,
+          "duration": 220.5296061038971
+        }
+      }
+    }
+  },
+  "run_timestamp": "2026-02-23 11:14:53"
+}
