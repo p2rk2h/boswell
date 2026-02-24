@@ -51,6 +51,24 @@ Present limitations:
 5) dynamic free chatbot (or model) celections are currently limited to maximum 16 models.
 
 New updates (2025-12-14):
-1) new flag '-f' or '--free' flag added to dynamically extract only latest free models in OpenRouter with maximum 16 models.
-2) corrected BoswellQuotientTable.py to exclude any models with more than 50% 'N/A' grades since some models might not respond back with feedback grades.
-3) added analysis condition to exclude any remaining 'N/A' grades; also correcting column index reference error of the initial previous checkin.  
+1) Dynamic Model Discovery: Added -f / --free flag automatically fetch the 16 most recent free models from OpenRouter.
+2) Robust Data Cleaning: Updated boswellQuotientTable.py to automatically exclude any models with more than 50% missing feedback, ensuring statistical significance in the final reports.
+3) Precision Refinement: Resolved column index reference errors and implemented a secondary analysis filter to sanitize remaining N/A grades before calculation.
+
+New Summary Supersedence and Automation (2026-02-10):
+1) Streamlined Execution: Added -latest flag to automatically identify and target the most recent domain file within the domains directory.
+2) Architectural Shift: Summary Supersedence and Expert Synthesis: Transitioned from grading individual essays to grading Integrated Summaries. Models now act as expert analysts, synthesizing all peer responses into a single meta-analysis.
+3) Analytical Depth Evaluation: Peer-grading is now performed on these syntheses to more accurately measure a model’s reasoning and summarization capabilities.
+4) End-to-End Automation: Integrated an automatic trigger for boswellQuotientTable.py at the end of the query cycle for immediate visualization of performance metrics (Quality/Cost/Latency).
+
+New updates (2026-02-24):
+1) Enhanced boswellQuotientTable.py: Added a new ranking column based on the numerical median of weighted Boswell Quotients, enabling clearer performance comparisons across models.
+2) Latest Sample Run Results (2026-02-23 11:14:53):
+ - Query Source: domains/sample_boswell_query.py
+ - Models Tested: 8 free-tier LLMs via OpenRouter:
+  * NVIDIA: Nemotron-3-Nano-30B-A3B, Nemotron-Nano-12B-2-VL, Nemotron-Nano-9B-V2
+  * Qwen: Qwen3-VL-30B-A3B-Thinking, Qwen3-VL-235B-A22B-Thinking, Qwen3-235B-A22B-Thinking-2507
+  * Google: Gemma-3n-2B
+  * DeepSeek: DeepSeek-R1-0528
+3) Visualization: The resulting Boswell Quotient Table with Ranking (or results/20260223-111453-sample_boswell_queryFr/BoswellQuotientTableOutput5221.png) is ahown below:
+![Boswell Quotient Table](results/20260223-111453-sample_boswell_queryFr/BoswellQuotientTableOutput5221.png)
